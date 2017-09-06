@@ -1,0 +1,62 @@
+﻿<div class="mainBody">
+    <div id="topTitle">
+        <h1>Biglietti ASAP Festival</h1>
+    </div>
+    <div id="lineUpBody">
+        <div class="lineUpSumUp">
+            <h3>Giorno 1</h3>
+            <ul class="artists">
+                <li>Liam Gallagher</li>
+                <li>Bud Spencer Blues Explosions</li>
+                <li>Adele</li>
+                <li>Marracash e Gu&#233; Pequeno</li>
+                <li>Stromae</li>
+                <li>Franco Battiato</li>
+            </ul>
+        </div>
+        <div class="lineUpSumUp">
+            <h3>Giorno 2</h3>
+            <ul class="artists">
+                <li>Tyler The creator</li>
+                <li>John Legend</li>
+                <li>Rihanna</li>
+                <li>Bon Iver</li>
+                <li>Steve Aoki</li>
+                <li>Red hot Chili Peppers</li>
+            </ul>
+        </div>
+        <div class="lineUpSumUp">
+            <h3>Giorno 3</h3>
+            <ul class="artists">
+                <li>Elio e le storie Tese</li>
+                <li>Rolling Stones</li>
+                <li>Jovanotti</li>
+                <li>Kendrick Lamar</li>
+                <li>Mac Demarco</li>
+                <li>Martin Garrix</li>
+            </ul>
+        </div>
+
+        <div id="break2"></div>
+
+    </div>
+    <div id="Prezzi">
+        <h2>Biglietti</h2>
+        <div class="purTicket">
+            <p class="ticketDay"><span class="strongText">Giorno 1</span> - 30 Settembre 2017</p>
+            <p class="ticketPrice">Prezzo 35€</p> <a class="purButton" href="p_ordini.php">Acquista</a>
+        </div>
+        <div class="purTicket">
+            <p class="ticketDay"><span class="strongText">Giorno 2</span> - 1 Ottobre 2017</p>
+            <p class="ticketPrice">Prezzo 35€</p><a class="purButton" href="p_ordini.php">Acquista</a>
+        </div>
+        <div class="purTicket">
+            <p class="ticketDay"><span class="strongText">Giorno 3</span> - 2 Ottobre 2017</p>
+            <p class="ticketPrice">Prezzo 35€</p><a class="purButton" href="p_ordini.php">Acquista</a>
+        </div>
+        <div class="purTicket">
+            <p class="ticketDay"><span class="strongText">Abbonamento 3 giorni</span></p>
+            <p class="ticketPrice">Prezzo 100€</p><a class="purButton" href="p_ordini.php">Acquista</a>
+        </div>
+    </div>
+</div>

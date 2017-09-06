@@ -1,0 +1,26 @@
+﻿<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="admin.css"/>
+</head>
+<body>
+<div class="mainBody">
+<div id="topTitle">
+    <h1>Pagina di amministrazione - Benvenuto [NOMEUTENTE]</h1>
+</div>
+<h2 id="publishedNews">Le news che hai pubblicato fino a questo momento:</h2>
+[News Titles]
+[ErroreErase]
+    <div id="pubblicaNews">
+    <h2>Pubblica una nuova news</h2>
+        <form name="news_publish" method="post" action="sendToDB.php">
+            <p class="formLabel">Titolo: </p> <input id="newsTitle" type="text" name="title" required/>
+            <p class="formLabel">Testo: </p> <input id="newsTesto" type="textarea" name="testo" required/>
+            <div id="adminButtonDiv">
+            <input id="adminButton" type="submit" name="postNews" value="Invia" />
+            </div>
+        </form>
+        <a id="logout" href="logout.php">Logout</a>
+    </div>
+</div>
+</body>
+</html>

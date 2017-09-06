@@ -1,0 +1,115 @@
+<div class="center">
+
+    <div id="topTitle">
+        <h1>INFORMAZIONI</h1>
+    </div>
+
+    <div id="contatti">
+        <div class="column" id="col1">
+            <h1>Contatti Email:</h1>
+
+            <h2>PRODUZIONE</h2>
+
+            <span class="mail">produzione@asapfestival.com</span>
+
+            <h2>STAMPA</h2>
+
+            <span class="mail">stampa@asapfestival.com</span>
+
+            <h2>TURISMO</h2>
+
+            <span class="mail">turismo@asapfestival.com</span>
+
+            <h2>INFORMAZIONI</h2>
+
+            <span class="mail">info@asapfestival.com</span>
+        </div>
+
+        <div class="column" id="col2">
+            <h1>Conosci la citta':</h1>
+
+            <span class="tile">Regione:</span> <p>Veneto</p>
+
+            <span class="tile">Provincia:</span> <p>Padova</p>
+
+            <span class="tile">Sindaco:</span> <p>Riccardo Poletto </p>
+
+            <span class="tile">Coordinate:</span> <p>45° 46' 07" N 11°44'12" E</p>
+
+            <span class="tile">Altitudine:</span> <p>129 m s.l.m.</p>
+
+            <span class="tile">Superficie:</span> <p>47,06 kmq</p>
+
+            <span class="tile">Abitanti:</span> <p>43 372 (31-12-2015)</p>
+
+            <span class="tile">Densita':</span> <p>921,63 ab/kmq</p>
+        </div>
+
+        <div class="column" id="col3">
+            <h1>Numeri Utili:</h1>
+
+            <span class="tile">Centro Informazioni:</span> <p>0424543678</p>
+
+            <span class="tile">General Manager:</span> <p>349546467</p>
+
+            <span class="tile">Acquisti e Prenotazioni:</span> <p>042454456</p>
+
+            <span class="tile">Centro Reclami:</span> <p>042458938</p>
+
+        </div>
+
+    </div>
+
+    <div id="border">
+        <div id="Cright">
+            <h2>SU DI NOI:</h2>
+            <div id="content">
+                <div class="article">
+                    <h3> Come siamo nati: </h3>
+                    <p>
+                        Siamo un gruppo di ragazzi cresciuti nella zona di Padova, e dopo aver girato molti festival per l’Europa abbiamo deciso di dare vita all’ASAP Festival. Ci rifacciamo alle esperienze dei festival all’estero, vogliamo replicare quei momenti, quelle sensazioni che vivi quando vai ad eventi pi&#217; blasonati, tipo il Glastonbury, il Coachella, Tomorrowland. Non fermarsi al concerto del singolo ma riuscire a far vivere il tutt’uno dove alla musica si affiancano pi&#217; momenti, pi&#217; emozioni. Un posto dove puoi scoprire nuova musica, incontrare persone, fare un viaggio.
+                    </p>
+                </div>
+                <div class="article">
+                    <h3> Chi siamo: </h3>
+
+                    <p>
+                        Siamo festival unico che si distingue per il numero enorme di spettatori che partecipano durante la settimana e per la location pronta ad accogliere tantissimi ragazzi che arrivano da oltre 102 nazioni nel mondo. L’ASAP non &#232; solo un festival musicale! I palchi sono varii, e tra grandi e piccole esibizioni si contano circa 10 spettacoli al giorno di tipo musicale e di caratura internazionale. Tanti sono i nomi che si sono alternati negli anni, possiamo menzionare nome come David Bowie, Foo Fighters, Oasis, The Cure, The Prodigy, The Chemical Brothers, Lou Reed, Muse, Manu Chao, Radiohead e tantissimi altri.
+                    </p>
+                </div>
+                <div class="article">
+                    <h3> Cosa facciamo: </h3>
+                    <p>
+                        Il nostro obiettivo minimo &#232; confermare un numero di presenze doppio rispetto scorsa edizione. Attendiamo un grande numero di turisti! In questi anni &#232; stata un’enorme soddisfazione contattare un così grande numero di artisti. &#200; da molti anni che cerchiamo di migliorarci e far sentire gli spettatori a casa. Quest’anno, oltre ad offrire una moltitudine di spettacoli per ogni giorno del festival, inseriremo dei distributori completamente gratuiti di acqua all’interno del festival affinch&#232; tutti possano avere a disposizione dell’acqua fresca. Vi auguriamo una stupenda esperienza!
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="compile">
+            <div id="fill">
+                <h3>Richiedi Informazioni:</h3>
+                <span>Per informazioni potete contattarci compilando il form sottostante:</span>
+
+                <form  action="invia_messaggio.php" method="post">
+                    Nome: <input class="insert" type="text" name="firstname"/>
+                    Cognome: <input  class="insert" type="text" name="lastname"/>
+                    Email: <input class="insert" type="text" name="email">
+                    Richiedi:
+                    <select name="motivazione" id="motivaz" >
+                        <option value="Turismo" >Turismo  </option>
+                        <option value="Informazioni"selected="selected">Informazioni</option>
+                        <option value="Produzione">Produzione  </option>
+                        <option value="Stampa">Stampa  </option>
+                    </select>
+                    Messaggio:
+                    <input id="messaggio" type="text" name="message"/>
+                    [ERRORE_INFO]
+                    <input type="submit" id="bottone" value="INVIA"/>
+                </form>
+
+            </div>
+        </div>
+    </div>
+</div>

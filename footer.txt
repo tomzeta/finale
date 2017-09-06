@@ -1,0 +1,46 @@
+<!--FOOTER-->
+
+            <div id="footer">
+                <div id="Fleft">
+                    <h3>PER I PROFESSIONISTI</h3>
+                        <ul>
+                            <li>
+                                <a href="#Contatt">Contatti</a>
+                            </li>
+                            <li>
+                                <a href="#Partner">Partner</a>
+                            </li>
+                        </ul>
+                </div>
+                <div id="Fcenter">
+
+                    <div class="FimageContainer">
+                        <a href="homepage.html">
+                            <img src="images/asapdef.png" alt="ASAP festival logo"/>
+                        </a>
+                    </div>
+
+                    <div class="footerContent">
+                        <p class="infoBox">QUANDO</p>
+                        <p>DAL 31 SETTEMBRE</p>
+                        <p>AL 2 OTTOBRE</p>
+                        <p>2017</p>
+                        <p class="infoBox">DOVE</p>
+                        <p>PADOVA</p>
+                        <p>VENETO</p>
+                        <p>IT</p>
+                    </div>
+                </div>
+                <div id="Fright">
+                    <h3>SOCIAL</h3>
+                    <a href="#facebook">
+                        <img id="fblogo" src="images/fblogo.png" alt="Facebook logo"/>
+                    </a>
+                    <a href="#instagram">
+                        <img id="instalogo" src="images/instalogo.png" alt="Instagram logo"/>
+                    </a>
+
+                </div>
+            </div>
+
+        <!--FOOTER-->

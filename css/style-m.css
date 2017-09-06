@@ -1,0 +1,2235 @@
+/*FILE CSS MOBILE*/
+
+/*PARTE COMUNE A TUTTE LE PAGINE*/
+
+    html, *{
+        padding: 0;
+        margin: 0;
+        font-family:'helveticaneue';
+        background-color:#ffcc66;
+    }
+
+    #header a:link{
+        text-align: center;
+        text-decoration: none;
+        color: black;
+    }
+
+    #header a:visited{
+        color:lightslategray;
+    }
+
+    #header a:hover{
+        color:orangered;
+    }
+
+
+    #error1{
+        margin-top:45%;
+    }
+
+    .errore404{
+        font-weight: bold;
+        font-size:2em;
+        text-align: center;
+    }
+
+    #smileError{
+        font-weight: bold;
+        font-size:4em;
+        text-align: center;
+    }
+    #logout {
+        text-align:center;
+    }
+
+/*FINE PARTE COMUNE A TUTTE LE PAGINE*/
+
+
+/*PARTE COMUNE A TUTTI I BREAKPOINT DI HOMEPAGE*/
+
+    #zero{
+        display:block;
+    }
+
+    .slideshow{
+        display:none;
+    }
+
+    #homeButtonContainer{
+        display: none;
+    }
+
+    #homeButtonContainer input {
+        background-color:#ffec64;
+        border-radius:6px;
+        border:1px solid #ff9900;
+        display:inline-block;
+        cursor:pointer;
+        color:#333333;
+        font-size:100%;
+        font-weight:bold;
+        margin-top:4%;
+        padding:6px 24px;
+    }
+
+    #homeButtonContainer input:hover {
+        background-color:#ff9b17;
+    }
+    #homeButtonContainer input:active {
+        position:relative;
+    }
+
+    #homeTopcenter h2{
+        text-align: center;
+        font-size: 250%;
+    }
+
+    .homeOverlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right:0;
+        bottom:0;
+        height: auto;
+        width: 100%;
+        opacity:0;
+        transition: .5s ease-in;
+        background-color: #ff9b17;
+        border-radius:20px;
+        border:4px solid #ff9900;
+        text-align: center;
+    }
+
+    .homeCaption{
+        display:none;
+        margin:25% auto;
+        font-weight: bold;
+        font-size:150%;
+        background-color: #ff9b17;
+    }
+
+    .homeContainer{
+        width:90%;
+        margin-left:5%;
+        position:relative;
+    }
+
+    .homeContainer img{
+        width:100%;
+        height:auto;
+        display:block;
+        margin-top:3%;
+        border-radius:20px;
+        border:4px solid #ff9900;
+    }
+
+    .homeContent img{
+        width:100%;
+        height:auto;
+        display:block;
+        overflow:hidden;
+    }
+
+    .homeContainer:hover .homeCaption{
+        display:inline-block;
+    }
+
+    .homeContainer:hover .homeOverlay {
+        opacity: 0.9;
+    }
+
+    #homeButtonContainer #prev{
+        margin-right:20%;
+    }
+
+
+    .homeMore a{
+        margin-left:25%;
+    }
+
+/*FINE PARTE COMUNE A TUTTI I BREAKPOINT DI HOMEPAGE*/
+
+/*PARTE COMUNE A TUTTI I BREAKPOINT DI NEWS*/
+
+    .newsContent img{
+        width:100%;
+        height:auto;
+        display:block;
+        overflow:hidden;
+        border-radius: 2px;
+    }
+
+    /*LOWCENTER*/
+
+    .NewsContainer{
+        width: 55%;
+        border:1px solid black;
+        border-radius: 5px;
+        margin-left:22%;
+        margin-bottom:10%;
+        padding-bottom:10%;
+
+    }
+
+    .newsContent{
+    }
+
+    .newsContent h2{
+        font-family: "IntroRustG-Base";
+        color: #ff6f00;
+        font-size: 220%;
+        font-weight: bold;
+        margin-top:5%;
+        text-align:center;
+    }
+
+    .newsContent p{
+        text-align: center;
+        font-size:20px;
+        margin: 5% 5%;
+
+    }
+
+    /*LOWCENTER*/
+
+/*FINE PARTE COMUNE A TUTTI I BREAKPOINT DI NEWS*/
+
+/*PARTE COMUNE A TUTTI I BREAKPOINT DI LINE-UP*/
+    .lineupContainer img{
+        width:100%;
+        height:auto;
+        display:block;
+        margin-top:6%;
+        border:1px solid black;
+        border-radius: 3px;
+    }
+
+    .lineupWrapper{
+        position:relative;
+    }
+
+/*FINE PARTE COMUNE A TUTTI I BREAKPOINT DI LINE-UP*/
+
+/*PARTE COMUNE A TUTTI I BREAKPOINT E VERSIONI DI VIAGGI CSS*/
+
+    .mainBody {
+        margin-top: 0;
+        margin-bottom: 2em;
+        padding: 0;
+        clear: both;
+        display: inline-block;
+        width: 100%;
+    }
+
+    #Ptrip .textBlock {
+        display: inline-block;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 2em;
+    }
+
+    #styleIt{
+        font-weight: bold;
+        font-style: italic;
+    }
+
+    #topTitle h1 {
+        font-size: 4em;
+        padding: 0;
+        width: 100%;
+        background-color: #ffaa2d;
+        padding-top: .5em;
+        padding-bottom: .5em;
+        margin-bottom: 1em;
+        text-align: center;
+        margin-top: 0;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+    }
+
+    #Ptrip .paragraph {
+        clear: both;
+        display: inline-block;
+        padding-top: 2em;
+        padding-bottom: 2em;
+        padding-left: 5%;
+        padding-right: 5%;
+        width: 78%;
+        margin-left: 5%;
+        margin-right: 5%;
+        text-align: center;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        border: 2px solid #ffaa2d;
+        border-radius: 4px;
+    }
+
+    #Ptrip .paragraph h2 {
+        font-size: 2em;
+        margin-bottom: 0.5em;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        text-align: center;
+    }
+
+    #Ptrip .paragraph h3 {
+        font-size: 1.5em;
+        margin-top: 1.5em;
+        margin-bottom: 1.2em;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+
+    #Ptrip .paragraph p {
+        font-size: 1.2em;
+        color: black;
+        text-align:center;
+        letter-spacing: 1px;
+    }
+
+    #Ptrip .paragraph a{
+        font-size: 24px;
+        color: black;
+    }
+
+    #Ptrip #helpDesk{
+        font-style: italic;
+    }
+
+    #Ptrip .paragraph h4{
+        font-size: 1.5em;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        text-align: center;
+        margin-bottom: 2%;
+    }
+
+    #Ptrip .paragraph h5{
+        font-size: 1.2em;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        text-align: center;
+        margin-top:3%;
+        margin-bottom: 1%;
+    }
+
+    #Ptrip #voyageList li{
+        margin-top:0.3em;
+        margin-left:3%;
+        text-align: left;
+        list-style:square;
+        font-size:1.2em;
+
+    }
+
+    #Ptrip .paragraph img {
+        width:98%;
+        height:auto;
+        margin-top:3%;
+        max-width: 500px;
+        display: inline-block;
+        border: 2px solid #ffaa2d;
+        border-radius:4px ;
+        -moz-transition: all 0.3s;
+        -webkit-transition: all 0.3s;
+        transition: all 0.3s;
+    }
+
+    #Ptrip .overlay{
+        height: auto;
+        width: 100%;
+    }
+
+    #Ptrip .overlay:hover img {
+        transform:scale(1.1);
+        -moz-transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+    }
+
+    .mainBody h1 {
+        text-align: center;
+        margin: auto;
+    }
+
+    #Ptrip #fbgroup{
+        height:auto;
+        margin-top:2%;
+        width:15%;
+        min-width:100px;
+        border:none;
+    }
+
+    #Ptrip #infoBox a{
+        padding: 15px 25px 15px 25px;
+        background-color: #ff9b17;
+        color: #fff;
+        font-weight: bold;
+        text-decoration: none;
+        font-size: 1.2em;
+        letter-spacing: 2px;
+        border: 3px solid #ff8713;
+    }
+
+    #Ptrip #infoBox a:hover{
+        background-color: #ff5b19;
+    }
+
+/*FINE PARTE COMUNE A TUTTI I BREAKPOINT E VERSIONI DI VIAGGI CSS*/
+
+/*PARTE COMUNE A TUTTI I BREAKPOINT E VERSIONI DI BIGLIETTI CSS*/
+
+    #lineUpBody {
+        display: inline-block;
+        width: 100%;
+        margin-bottom: 3em;
+    }
+
+    .lineUpSumUp {
+        float: left;
+        text-align: center;
+        width: 27%;
+        margin: 1%;
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+
+    .lineUpSumUp h3 {
+        font-size: 3em;
+        margin-top: 0.5em;
+        margin-bottom: 1em;
+
+    }
+
+    .purButton {
+        margin-bottom: 2em;
+        margin-top: 2em;
+        font-size: 1em;
+        font-weight: bold;
+        padding: 20px;
+        background-color: #ffaa2d;
+        border: 0px solid;
+        text-decoration: none;
+        color:black;
+
+    }
+    .purButton a:visited {
+        color:lightslategray;
+    }
+
+
+    .artists{
+        list-style: none;
+        font-weight: bold;
+        font-size: 1.5em;
+    }
+
+    #Prezzi {
+
+        margin-left: 5%;
+        margin-right: 10%;
+        margin-top: 3em;
+        margin-bottom: 2em;
+        padding: 0;
+    }
+
+    #Prezzi h2 {
+        font-size: 3em;
+        margin-bottom: 1em;
+    }
+
+    .purTicket {
+        font-size: 2em;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        width: 100%;
+        overflow: hidden;
+        display: inline-block;
+    }
+
+    .purTicket input {
+        margin: 0;
+        float: right;
+    }
+
+    .ticketDay {
+        display: inline-block;
+        width: 50%;
+    }
+
+    .ticketPrice {
+        display: inline-block;
+        margin: 0;
+        width: 30%;
+    }
+
+    .strongText {
+        font-weight: bold;
+    }
+
+/*FINE PARTE COMUNE A TUTTI I BREAKPOINT E VERSIONI DI BIGLIETTI CSS*/
+
+/*PARTE COMUNE A TUTTI I BREAKPOINT DI INFO*/
+
+    #bottone{
+    background-color:#ffec64;
+    border-radius:6px;
+    border:1px solid #ff9900;
+    display:inline-block;
+    cursor:pointer;
+    color:#333333;
+    font-size:100%;
+    font-weight:bold;
+    margin-top:4%;
+    padding:6px 24px;
+}
+
+    #bottone:hover {
+    background-color: #ff9b17;
+}
+
+/*FINE PARTE COMUNE A TUTTI I BREAKPOIN DI INFO*/
+
+
+/*PARTE COMUNE A TUTTI I BREAKPOINT DI REGISTRAZIONE*/
+
+    .mainBody2 {
+        margin-top: 0;
+        margin-bottom: 2em;
+        padding: 0;
+        clear: both;
+        display: inline-block;
+        width: 100%;
+    }
+
+    #Pregistrazione .textBlock {
+        display: inline-block;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 2em;
+    }
+
+    #Pregistrazione #topTitle h1 {
+        font-size: 2em;
+        padding: 0;
+        width: 100%;
+        background-color: #ffaa2d;
+        padding-top: .5em;
+        padding-bottom: .5em;
+        margin-bottom: 0.5em;
+        text-align: center;
+        margin-top: 0;
+    }
+
+    #Pregistrazione #topTitle h2 {
+        font-size: 1.5em;
+        padding: 0;
+        text-align: center;
+    }
+
+    #Pregistrazione .paragraph {
+        clear: both;
+        display: inline-block;
+        padding-top: 2em;
+        padding-bottom: 2em;
+        padding-left: 5%;
+        padding-right: 5%;
+        width: 78%;
+        margin-left: 5%;
+        margin-right: 5%;
+        text-align: center;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        border: 8px solid #ffaa2d;
+        border-radius: 20px;
+    }
+
+    #Pregistrazione .paragraph p {
+        font-size: 1.5em;
+        margin-bottom: .3em;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #Pregistrazione input{
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 2px solid #ffaa2d;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+    #Pregistrazione input[type=submit] {
+        width: 30%;
+        background-color: #ffaa2d;
+        font-size: 1.5em;
+        color: black;
+        padding: 12px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    #Pregistrazione input[type=submit]:hover {
+        background-color: #ffaa6a;
+    }
+
+/*FINE PARTE COMUNE A TUTTI I BREAKPOINT DI REGISTRAZIONE*/
+
+/*PARTE COMUNE A TUTTI I BREAKPOINT DI LOGIN*/
+    .mainBody3 {
+        margin-top: 0;
+        margin-bottom: 2em;
+        padding: 0;
+        clear: both;
+        display: inline-block;
+        width: 100%;
+    }
+
+    #Plogin .textBlock {
+        display: inline-block;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 2em;
+    }
+
+    #Plogin #topTitle h1 {
+        font-size: 2em;
+        padding: 0;
+        width: 100%;
+        background-color: #ffaa2d;
+        padding-top: .5em;
+        padding-bottom: .5em;
+        margin-bottom: 0.5em;
+        text-align: center;
+        margin-top: 0;
+    }
+
+    #Plogin #topTitle h2 {
+        font-size: 1.5em;
+        padding: 0;
+        text-align: center;
+    }
+
+    #Plogin .paragraph {
+        clear: both;
+        display: inline-block;
+        padding-top: 2em;
+        padding-bottom: 2em;
+        padding-left: 5%;
+        padding-right: 5%;
+        width: 78%;
+        margin-left: 5%;
+        margin-right: 5%;
+        text-align: center;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        border: 8px solid #ffaa2d;
+        border-radius: 20px;
+    }
+
+    #Plogin .paragraph p {
+        font-size: 1.5em;
+        margin-bottom: .3em;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .ops{
+        display:none;
+    }
+
+    #Plogin input{
+        width: 50%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 2px solid #ffaa2d;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+    #Plogin input[type=submit] {
+        width: 30%;
+        background-color: #ffaa2d;
+        font-size: 1.5em;
+        color: black;
+        padding: 12px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    #Plogin input[type=submit]:hover {
+        background-color: #ffaa6a;
+    }
+/*FINE PARTE COMUNE A TUTTI I BREAKPOINT DI LOGIN*/
+
+
+/*PARTE COMUNE A TUTTI I BREAKPOINT DI ORDINI*/
+
+#OrdineTopcenter h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-top:5%;
+    margin-bottom:1%;
+}
+
+#OrdineTopcenter h3 {
+    font-size: 1.5em;
+    padding-bottom: 1%;
+    text-align: center;
+}
+
+#OrdineTopcenter span {
+    color: black;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.orderBold{
+    font-weight:bold;
+}
+
+.order {
+    margin-left: 2%;
+}
+
+.order p {
+    padding-bottom: 1.5%;
+    text-align: center;
+}
+
+#OrdineMidcenter h2 {
+    padding: 3px;
+    display: block;
+    text-align: center;
+    margin-top: 2%;
+}
+
+#OrdineMidcenter p {
+    font-size: 1.5em;
+}
+
+.orderError {
+    margin-top:5%;
+    margin-bottom:5%;
+    text-align:center;
+}
+
+.choice p {
+    margin-bottom: 0.5em;
+}
+
+.insert {
+    font-size: 2em;
+}
+#result {
+    margin-top: 1em;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+#OrdineMidcenter .choice{
+    width: 200px;
+    margin: 0 auto;
+}
+
+.OrdineWrap{
+    width:80%;
+    margin-left:10%;
+    margin-bottom:10%;
+    text-align: center;
+}
+
+#OrderButton{
+    background-color:#ffec64;
+    border-radius:6px;
+    border:1px solid #ff9900;
+    display:inline-block;
+    cursor:pointer;
+    color:#333333;
+    font-size:100%;
+    font-weight:bold;
+    margin-top:2%;
+    padding:6px 12px;
+}
+
+#OrderButton:hover {
+    background-color: #ff9b17;
+}
+
+/*FINE PARTE COMUNE A TUTTI I BREAKPOINT DI REGISTRAZIONE*/
+/*INIZIO PARTE COMUNE DI ADMIN*/
+.adminTitle{
+    font-size: 3em;
+}
+.newsEliminabile {
+    text-align: left;
+    margin-left: 10%;
+}
+#eraseButton{
+    margin-left: 10%;
+    margin-top: 1em;
+    padding: 0.5em;
+    font-weight: bold;
+}
+#publishedNews {
+    margin-bottom: 2em;
+    text-align: center;
+}
+#pubblicaNews h2 {
+    text-align: center;
+}
+.formLabel {
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+#newsTitle {
+    height: 3em;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#newsTesto {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    vertical-align: text-top;
+    height: 10em;
+}
+#newsError {
+    margin-left: 10%;
+    margin-top: 1em;
+    font-style: italic;
+    font-size: 1.3em;
+    margin-bottom: 1em;
+}
+#adminButton {
+    margin-left:10%;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    padding: 0.5em;
+    font-weight: bold;
+}
+#logout{
+    background-color:#ffec64;
+    border-radius:6px;
+    border:1px solid #ff9900;
+    display:inline-block;
+    cursor:pointer;
+    color:#333333;
+    font-size:100%;
+    font-weight:bold;
+    margin-top:2%;
+    margin-left: 42.5%;
+    margin-right: 42.5%;
+    width: 15%;
+    padding:6px 12px;
+}
+.adminButtonDiv {
+    margin-bottom: 2em;
+}
+
+/*END ADMIN*/
+
+/*MOBILE CSS PER TUTTE LE PAGINE */
+
+@media screen and (min-width:320px) and (max-width:768px){
+
+    /*HEADER*/
+
+        #logo{
+            margin-top:19%;
+            margin-right:auto;
+            margin-left:auto;
+            margin-bottom:1%;
+            height:auto;
+            width:40%;
+            display:block;
+        }
+
+        #header{
+            padding-bottom:1%;
+            margin-bottom: 1%;
+        }
+
+        #menubutton {
+            display: block;
+            background-color: #ff8b03;
+            padding: 0.2em;
+            cursor: pointer;
+            margin-top: 0.8em;
+            margin-right: 1em;
+            margin-left: 1em;
+            border:2px solid;
+            border-radius: 0.3em;
+            width: 3.5em;
+        }
+
+        .bar{
+            height:0.3em;
+            background-color:#333;
+            margin:0.24em;
+            display:block;
+        }
+
+        .click{
+            top:0;
+            position:fixed;
+            background-color: #ffaa2d;
+            width: 100%;
+            z-index:100;
+            height: 4em;
+        }
+
+        #click-content{
+            display: none;
+            border:1px solid #ff9b17;
+            border-radius:10px;
+            background-color: #ffb612;
+            width: 45%;
+            height: auto;
+            margin-left:23%;
+            margin-top:4%;
+            margin-bottom:15%;
+            padding-left:3%;
+            padding-right:3%;
+
+        }
+
+        #nojava{
+            display:block;
+        }
+
+
+        #click-content ul{
+            background-color: #ffb612;
+            margin:auto;
+            padding: 0.5em 0;
+        }
+
+        #logLink2{
+            display:none;
+        }
+
+        #click-content li{
+            background-color: #ffb612;
+            width: 100%;
+            font-size: 1.3em;
+            display: block;
+            text-align: center;
+            padding: 0.3em;
+        }
+
+        #click-content a{
+            background-color: #ffb612;
+        }
+
+        .list {
+            background-color: #ffb612;
+        }
+
+
+        #logBox{
+            width:20%;
+            padding-top:2%;
+            position:fixed;
+            top:1.5%;
+            right:0;
+            z-index: 100;
+            float:right;
+            text-align: center;
+            letter-spacing:2px;
+            background-color: #ffaa2d;
+        }
+
+        #logBox a{
+            padding:4% 4% 4% 4%;
+            background-color: #ff9600;
+            border:1px solid #ff8b03;
+            font-weight:bold;
+            font-size:1em;
+            border-radius:3px;
+        }
+
+        #logBox #Box{
+            color: black;
+            background-color: #ff9600;
+        }
+
+        #breadcrumb{
+            width:100%;
+            margin-top:5%;
+            padding-top:0.7em;
+            padding-bottom:0.7em;
+            border-style: solid;
+            border-width: 0.063em;
+        }
+
+        #breadcrumb p{
+            text-align:center;
+            font-weight:bold;
+
+        }
+
+    /*HEADER*/
+
+    /*FOOTER*/
+
+        #footer{
+            margin-top:5%;
+            text-align:center;
+        }
+
+        #Fleft h3{
+            padding-top:5%;
+        }
+        #Fleft ul{
+            margin-top:2%;
+            margin-bottom:1.5em;
+        }
+
+        #Fleft li{
+            margin-top:0.625em;
+            padding-bottom:0.3em;
+            list-style-type: none;
+            font-size: 1.15em;
+        }
+
+        #Fleft a:link{
+            text-decoration:none;
+            color: black;
+        }
+
+        #Fleft a:visited{
+            color:lightslategray;
+        }
+
+        #Fleft a:hover{
+            color:orangered;
+        }
+
+        #Fcenter{
+            margin-left:auto;
+            margin-right:auto;
+            width: 12em;
+            height: auto;
+        }
+
+        #Fcenter img{
+            height: auto;
+            width:100%;
+        }
+
+        .FimageContainer{
+            margin-left:23%;
+            width: 54%;
+        }
+
+        #Fcenter h3{
+            font-size:1.3em;
+        }
+
+        .footerContent{
+            margin-top:1%;
+            width:100%;
+        }
+
+        .footerContent p{
+            padding-top:1%;
+            font-size:120%;
+            text-align:center;
+        }
+
+        .footerContent .infoBox{
+            font-weight: bold;
+        }
+
+        #Fright h3{
+            padding-top:2%;
+        }
+
+        #fblogo{
+            display: block;
+            margin: auto;
+            height: 4em;
+            width: 4.5em;
+            padding-top:2%;
+            padding-right:0.5em;
+        }
+
+        #instalogo{
+            display:block;
+            margin:auto;
+            height: 4.3em;
+            width: 4.3em;
+            padding-top:1em;
+            padding-right:0.5em;
+
+        }
+
+    /*FOOTER*/
+
+    /*HOMEPAGE*/
+
+        /*TOPCENTER*/
+
+            #homeTopcenter{
+                padding-top:3%;
+                margin-bottom:10%;
+            }
+
+            #homeTitleBox{
+                width:50%;
+                text-align:center;
+                margin-left:23%;
+            }
+
+            .homeContainer{
+                width:90%;
+                margin-left:5%;
+                position:relative;
+            }
+
+            #homeButtonContainer{
+                width:80%;
+                margin-left:10%;
+                text-align: center;
+            }
+
+        /*TOPCENTER*/
+
+        /*LOWCENTER*/
+
+            .homeNewsContainer{
+                width: 75%;
+                border-style: solid;
+                border-width: 1px;
+                border-radius: 3px;
+                background-color: #ffbd0f;
+                margin-left:12%;
+                margin-bottom:10%;
+                padding-bottom:10%;
+
+            }
+
+            .homeContent{
+                background-color: #ffbd0f;
+            }
+
+            .homeContent h2{
+                font-family: 'IntroRustG-Base';
+                color: #ff6f00;
+                font-size: 220%;
+                font-weight: bold;
+                margin-top:5%;
+                text-align:center;
+                background-color: #ffbd0f;
+            }
+
+            .homeContent p{
+                text-align: center;
+                font-size:20px;
+                margin: 5% 5%;
+                background-color: #ffbd0f;
+            }
+
+            .homeMore{
+                text-align: center;
+                margin-top:20%;
+                width:80%;
+                background-color: #ffbd0f;
+            }
+
+            .homeMore a{
+                padding: 3% 6% 3% 6%;
+                background-color: #ff9b17;
+                color: #fff;
+                font-weight: bold;
+                text-decoration: none;
+                font-size: 15px;
+                letter-spacing: 2px;
+                border: 3px solid #ff8713;
+            }
+
+            .homeMore a:hover{
+                background-color: #ff5b19;
+            }
+
+        /*LOWCENTER*/
+
+    /*FINE HOMEPAGE*/
+
+    /*NEWS*/
+        .NewsContainer{
+            width: 75%;
+            margin-left:12%;
+        }
+    /*FINE NEWS*/
+
+    /*INFO*/
+
+        /*BODY*/
+
+            #border {
+                display: block;
+                width:100%;
+                border-bottom:3px solid #ffaa2d;
+            }
+
+            #Cright h2 {
+                font-size: 2.5em;
+                font-weight: bold;
+                text-align: center;
+                padding-top: 5%;
+                margin-left:3%;
+
+            }
+
+            #content{
+                margin-top:5%;
+                margin-bottom: 5%;
+
+            }
+
+            #content h3 {
+                text-align: center;
+                font-size:1.5em;
+                margin-left: 3%;
+                margin-top: 1%;
+                margin-bottom:1%;
+
+            }
+
+            .article{
+                margin-left:10%;
+                margin-right:10%;
+            }
+
+            .article p {
+                padding:3% 3% 3% 3%;
+                border: 2px solid #ffaa2d;
+                border-radius:3px;
+            }
+
+            #contatti {
+                margin-bottom:7%;
+                width:100%;
+                height:auto;
+            }
+
+            #contatti h2 {
+                margin-top: 1em;
+                margin-left:10%;
+                margin-bottom:5%;
+                font-size:1.5em;
+            }
+
+            #contatti .mail{
+                margin-left:10%;
+                padding-right:2%;
+                margin-bottom:4%;
+                font-style:italic;
+            }
+
+            #contatti .tile{
+                text-align:center;
+                margin-left:6%;
+                margin-right:1%;
+                font-weight: bold;
+            }
+
+            #contatti p{
+                margin-left:10%;
+                margin-top:1%;
+                margin-bottom:4%;
+            }
+
+            #contatti .column{
+                padding-right:15%;
+                margin-top:10%;
+                margin-left:12%;
+                margin-right:12%;
+                padding-bottom:5%;
+                margin-bottom:2%;
+                border: 2px solid #ffaa2d;
+                border-radius:3px;
+                width: 60%;
+            }
+
+            #contatti .column h1{
+                margin-top: 5%;
+                margin-left: 10%;
+                margin-bottom: 5%;
+            }
+
+            #contatti .column p{
+                margin-left: 10%;
+            }
+
+            #contatti .tile{
+                margin-left: 10%;
+            }
+
+        /*BODY*/
+
+        /*BORDER*/
+
+            #compile {
+                margin-left: 2%;
+                padding-left: 10%;
+                padding-bottom: 5%;
+                padding-top:5%;
+            }
+
+            #fill {
+                margin-left:10%;
+                margin-right:20%;
+                padding-top:1%;
+                padding-bottom:1%;
+                padding-left:10%;
+                border: 2px solid #ffaa2d;
+                border-radius:3px;
+            }
+
+            #fill p {
+                margin-bottom: 1.5em;
+            }
+
+            #motivaz{
+                display: block;
+                background-color: white;
+                margin-bottom: 0.8em;
+            }
+
+            .insert {
+                display:block;
+                background-color: white;
+                margin-right:10%;
+                margin-left: 10%;
+                width: 80%;
+                margin-bottom: 0.5em;
+            }
+
+            #messaggio {
+                display:block;
+                background-color:white;
+                width:75%;
+                padding-right:14%;
+                padding-bottom:7em;
+            }
+
+        /*BORDER*/
+
+    /*FINE INFO*/
+
+    /*LINE-UP*/
+        /*CENTER*/
+
+            #lineupTitolo h1{
+                margin-top:5%;
+                margin-bottom:1%;
+                text-align: center;
+            }
+
+            #lineupCenter{
+                width:100%;
+                margin-top:3%;
+                margin-bottom:10%;
+            }
+
+            #lineupCenter h2{
+                margin-top:5%;
+                margin-bottom:1%;
+                text-align:center;
+            }
+
+            #lineupCenter #day3{
+                margin: 10% 20% 2% 1.5%;
+            }
+
+            .lineupContainer{
+                width: 80%;
+                margin-left:10%;
+                margin-right:5%;
+                display: block;
+                position:relative;
+            }
+
+            .lineupOverlay {
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                height: auto;
+                width: 100%;
+                opacity: 0;
+                transition: .5s ease-in;
+                background-color: #ff9b17;
+                border:1px solid #ff9b17;
+                border-radius: 3px;
+            }
+
+            .lineupContainer:hover .lineupOverlay {
+                opacity: 0.9;
+            }
+
+            .lineupDescription{
+                width:100%;
+                height:inherit;
+                top:50%;
+                left:50%;
+                font-size: 80%;
+                display:block;
+                text-align:center;
+                font-weight: bold;
+                background-color: #ff9b17;
+                position: absolute;
+                transform: translate(-50%, -50%);
+                -ms-transform: translate(-50%, -50%);
+            }
+
+            .lineupContainer span{
+                display:block;
+                margin-top:2%;
+                margin-left:5%;
+                margin-right:5%;
+                margin-bottom:5%;
+                font-size:1.3em;
+                font-weight: bold;
+            }
+
+        /*CENTER*/
+    /*FINE LINE-UP*/
+
+    /*VIAGGI CSS*/
+
+        #topTitle h1 {
+            font-size: 2em;
+        }
+
+        .paragraph {
+            margin-left: 0;
+            margin-right: 0;
+            padding-left: 10%;
+            padding-right: 10%;
+            width: 80%;
+            border-width: 1px;
+        }
+
+        #footerTrip{
+            margin-top:5%;
+            text-align:center;
+        }
+
+    /*FINE VIAGGI CSS*/
+
+    /*BIGLIETTI CSS*/
+
+        .lineUpSumUp {
+            width: 100%;
+            margin: auto;
+            padding: 0;
+        }
+
+        #Prezzi {
+            text-align: center;
+            margin-left: 0;
+            margin-right: 0;
+        }
+
+        #Prezzi h2 {
+            font-size: 3em;
+            margin-bottom: 0.5em;
+            background-color: #ffaa2d;
+            padding-bottom: 5px;
+            padding-top: 5px;
+        }
+
+        .purTicket {
+
+            padding-bottom: 1em;
+        }
+
+        .purTicket input {
+            position: center;
+            width: 50%;
+            margin-left: 25%;
+            margin-right: 25%;
+        }
+
+        .ticketDay {
+            width: 80%;
+            margin-left: 10%;
+            margin-right: 10%;
+            margin-bottom: 1em;
+        }
+
+        .ticketPrice {
+            width: 100%;
+            margin-bottom: 0.5em;
+        }
+
+    /*FINE BIGLIETTI CSS*/
+
+    /*REGISTRAZIONE CSS*/
+        #Pregistrazione input[type=submit] {
+            width: 100%;
+            background-color: #ffaa2d;
+            font-size: 1.5em;
+            color: black;
+            padding: 12px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    /*FINE REGISTRAZIONE CSS*/
+
+    /*LOGIN CSS*/
+        #Plogin input[type=submit] {
+            width: 100%;
+            background-color: #ffaa2d;
+            font-size: 1.5em;
+            color: black;
+            padding: 12px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    /*LOGIN CSS*/
+
+    /*ORDINE CSS*/
+
+    .order {
+        width:95%;
+    }
+
+    /*ORDINE CSS*/
+
+    /*ADMIN*/
+    #adminButton {
+        width: 20%;
+        margin-left: 40%;
+        margin-right: 40%;
+        text-align: center;
+    }
+    #newsError{
+        width:100%;
+        margin-left: 0;
+        text-align: center;
+    }
+    #eraseButton{
+        text-align: center;
+    }
+    /*ADMIN*/
+
+}
+
+/*FINE MOBILE CSS PER TUTTE LE PAGINE */
+
+
+/*TABLET CSS PER TUTTE LE PAGINE*/
+
+@media screen and (min-width:769px) and (max-width:1024px){
+
+    /*HEADER*/
+        #logo{
+            margin-top:15%;
+            margin-right:auto;
+            margin-left:auto;
+            margin-bottom:1%;
+            height:auto;
+            width:40%;
+            display:block;
+        }
+
+        #header{
+            padding-bottom:1%;
+            margin-bottom: 1%;
+        }
+
+        #menubutton {
+            display: block;
+            background-color: #ff8b03;
+            padding: 0.2em;
+            cursor: pointer;
+            margin-top: 0.8em;
+            margin-right: 1em;
+            margin-left: 1em;
+            border:2px solid;
+            border-radius: 0.3em;
+            width: 3.5em;
+        }
+
+        .bar{
+            height:0.3em;
+            background-color:#333;
+            margin:0.24em;
+            display:block;
+        }
+
+        .click{
+            top:0;
+            position:fixed;
+            background-color: #ffaa2d;
+            z-index:100;
+            width: 100%;
+            height: 4em;
+        }
+
+        #click-content{
+            display: none;
+            border:1px solid #ff9b17;
+            border-radius:10px;
+            background-color: #ffb612;
+            width: 45%;
+            height: auto;
+            margin-left:23%;
+            margin-top:4%;
+            margin-bottom:15%;
+            padding-left:3%;
+            padding-right:3%;
+
+        }
+
+        #click-content ul{
+            background-color: #ffb612;
+            margin:auto;
+            padding: 0.5em 0;
+        }
+
+        #click-content li{
+            background-color: #ffb612;
+            width: 100%;
+            font-size: 1.3em;
+            display: block;
+            text-align: center;
+            padding: 0.3em;
+        }
+
+        #click-content a{
+            background-color: #ffb612;
+        }
+
+        #logBox{
+            width:20%;
+            padding-top:2%;
+            position:fixed;
+            top:1.5%;
+            right:0;
+            z-index: 100;
+            float:right;
+            text-align: center;
+            letter-spacing:2px;
+            background-color: #ffaa2d;
+        }
+
+        #logBox a{
+            padding:4% 4% 4% 4%;
+            background-color: #ff9600;
+            border:1px solid #ff8b03;
+            font-weight:bold;
+            font-size:1em;
+            border-radius:3px;
+        }
+
+        #logBox #Box{
+            color: black;
+            background-color: #ff9600;
+        }
+
+        #logLink2{
+            display:none;
+        }
+
+        .list {
+            background-color: #ffb612;
+        }
+
+        #breadcrumb{
+            width:100%;
+            margin-top:5%;
+            padding-top:0.7em;
+            padding-bottom:0.7em;
+            border-style: solid;
+            border-width: 0.063em;
+            background-color: #ffbd0f;
+        }
+
+        #breadcrumb span{
+            background-color: #ffbd0f;
+        }
+
+        #breadcrumb p{
+            text-align:center;
+            font-weight:bold;
+            background-color: #ffbd0f;
+        }
+
+    /*HEADER*/
+
+    /*FOOTER*/
+
+        #footer{
+            margin-top:7%;
+            text-align:center;
+        }
+
+        #Fleft h3{
+            text-align:center;
+            padding-top:5%;
+        }
+        #Fleft ul{
+            margin-top:2%;
+            margin-bottom:1.5em;
+        }
+
+        #Fleft li{
+            margin-top:0.625em;
+            padding-bottom:0.3em;
+            list-style-type: none;
+            font-size: 1.15em;
+        }
+
+        #Fleft a:link{
+            text-decoration:none;
+            color: black;
+        }
+
+        #Fleft a:visited{
+            color:lightslategray;
+        }
+
+        #Fleft a:hover{
+            color:orangered;
+        }
+
+        #Fcenter{
+            margin-left:auto;
+            margin-right:auto;
+            width: 12em;
+            height: auto;
+        }
+
+        #Fcenter img{
+            height: auto;
+            width:100%;
+        }
+
+        .FimageContainer{
+            margin-left:23%;
+            width: 54%;
+        }
+
+        #Fcenter h3{
+            font-size:1.3em;
+        }
+
+        .footerContent{
+            margin-top:1%;
+            width:100%;
+        }
+
+        .footerContent p{
+            padding-top:1%;
+            font-size:120%;
+            text-align:center;
+        }
+
+        .footerContent .infoBox{
+            font-weight: bold;
+        }
+
+        #Fright h3{
+            padding-top:2%;
+        }
+
+        #fblogo{
+            display: block;
+            margin: auto;
+            height: 4em;
+            width: 4.5em;
+            padding-top:2%;
+            padding-right:0.5em;
+        }
+
+        #instalogo{
+            display:block;
+            margin:auto;
+            height: 4.3em;
+            width: 4.3em;
+            padding-top:1em;
+            padding-right:0.5em;
+
+        }
+
+    /*FOOTER*/
+
+    /*HOMEPAGE*/
+        /*TOPCENTER*/
+
+            #homeTopcenter{
+                padding-top:3%;
+                margin-bottom:10%;
+            }
+
+            #homeTitleBox{
+                width:50%;
+                text-align:center;
+                margin-left:24%;
+            }
+
+            .homeContainer{
+                width: 85%;
+                margin-left:8%;
+                position:relative;
+            }
+
+            #homeButtonContainer{
+                width:80%;
+                margin-left:10%;
+                text-align: center;
+            }
+
+        /*TOPCENTER*/
+
+        /*LOWCENTER*/
+
+            #homeCenter{
+                margin-bottom:95%;
+            }
+
+            .homeNewsContainer{
+                width: 43%;
+                height: 42em;
+                border-style: solid;
+                border-width: 1px;
+                border-radius: 3px;
+                float:left;
+                background-color: #ffbd0f;
+            }
+
+            .homeContent{
+                background-color: #ffbd0f;
+                margin-bottom:20%;
+            }
+
+            #HC1{
+                margin-left:5%;
+                margin-right:5%
+            }
+
+            .homeContent h2{
+                font-family: 'IntroRustG-Base';
+                color: #ff6f00;
+                font-size: 38px;
+                font-weight: bold;
+                margin-top:10%;
+                margin-left:2%;
+                margin-right:2%;
+                text-align:center;
+                background-color: #ffbd0f;
+            }
+
+            .homeContent p{
+                text-align: center;
+                font-size:20px;
+                margin-top:5%;
+                margin-left:3%;
+                margin-right:3%;
+
+                background-color: #ffbd0f;
+            }
+
+            .homeMore{
+                text-align: center;
+                margin-top:20%;
+                width:80%;
+                background-color: #ffbd0f;
+            }
+
+            .homeMore a{
+                padding: 15px 25px 15px 25px;
+                background-color: #ff9b17;
+                color: #fff;
+                font-weight: bold;
+                text-decoration: none;
+                font-size: 15px;
+                letter-spacing: 2px;
+                border: 3px solid #ff8713;
+            }
+
+            .homeMore a:hover{
+                background-color: #ff5b19;
+            }
+
+        /*LOWCENTER*/
+
+    /*FINE HOMEPAGE*/
+
+    /*NEWS*/
+        .NewsContainer{
+            width: 65%;
+            margin-left:12%;
+        }
+    /*FINE NEWS*/
+
+    /*INFO*/
+        /*BODY*/
+
+            #border {
+                display: block;
+                width:100%;
+                border-bottom:3px solid #ffaa2d;
+            }
+
+
+            #Cright h2 {
+                font-size: 2.5em;
+                font-weight: bold;
+                text-align: center;
+                padding-top: 25em;
+                margin-left:3%;
+
+            }
+
+            #content{
+                margin-top:5%;
+            }
+
+            #content h3 {
+                text-align: center;
+                font-size:1.5em;
+                margin-left: 3%;
+                margin-top: 1%;
+                margin-bottom:1%;
+            }
+
+            .article{
+                margin-left:10%;
+                margin-right:10%;
+            }
+
+            .article p {
+                padding:1% 1% 1% 1%;
+                border: 2px solid #ffaa2d;
+                border-radius:3px;
+            }
+
+            #contatti {
+                margin-bottom:10%;
+                width:100%;
+                height:auto;
+            }
+
+            #contatti h1{
+                margin-top: 5%;
+                margin-left:5%;
+                margin-bottom:5%;
+                font-size:2.5em;
+            }
+
+            #contatti h2 {
+                margin-top: 1em;
+                margin-left:5%;
+                margin-bottom:5%;
+                font-size:1.5em;
+            }
+
+            #contatti h3{
+                margin-top:2%;
+                margin-bottom:2%;
+                margin-left:5%;
+                font-size:18px;
+            }
+
+            #contatti .mail{
+                margin-left:10%;
+                padding-right:2%;
+                margin-bottom:4%;
+                font-style:italic;;
+            }
+
+            #contatti .tile{
+                text-align:center;
+                margin-left:6%;
+                margin-right:1%;
+                font-weight: bold;
+            }
+
+            #contatti p{
+                margin-left:10%;
+                margin-top:1%;
+                margin-bottom:4%;
+            }
+
+            #contatti .column{
+                padding-right:15%;
+                margin-left:2%;
+                margin-right:2%;
+                margin-bottom:2%;
+                border: 2px solid #ffaa2d;
+                border-radius:3px;
+                width: 30%;
+                float:left;
+            }
+
+            #contatti .tile{
+                margin-left: 10%;
+            }
+
+            #contatti .column h1{
+                margin-top: 5%;
+                margin-left: 10%;
+                margin-bottom: 5%;
+            }
+            #contatti .column h2{
+                margin-left: 10%;
+            }
+
+        /*BODY*/
+
+        /*BORDER*/
+
+            #compile {
+                margin-left: 2%;
+                padding-left: 15%;
+                padding-bottom: 5%;
+                padding-top:5%;
+
+            }
+
+            #fill {
+                margin-left:2%;
+                margin-right:20%;
+                padding-top:1%;
+                padding-bottom:1%;
+                padding-left:10%;
+                border: 2px solid #ffaa2d;
+                border-radius:3px;
+            }
+
+            #fill p {
+                margin-bottom: 1.5em;
+            }
+
+            #motivaz{
+                display: block;
+                background-color: white;
+                margin-bottom: 0.8em;
+            }
+
+            .insert {
+                display:block;
+                background-color: white;
+                margin-right:14em;
+                width: 25em;
+                margin-bottom: 0.5em;
+
+            }
+
+            #messaggio {
+                display:block;
+                background-color:white;
+                width:25em;
+                padding-right:14%;
+                padding-bottom:7em;
+            }
+
+        /*BORDER*/
+
+    /*FINE INFO*/
+
+    /*LINE-UP*/
+        /*CENTER*/
+
+            #lineupTitolo h1{
+                margin-top:5%;
+                margin-bottom:1%;
+                margin-left:2%;
+                margin-right:20%;
+            }
+
+            #lineupCenter{
+                width:100%;
+                margin-top:3%;
+                margin-bottom:70%;
+            }
+
+            #lineupCenter h2{
+                margin-top:5%;
+                margin-bottom:1%;
+                margin-left:2%;
+                margin-right:20%;
+            }
+
+            #lineupCenter #day2{
+                margin-top:95%;
+            }
+
+            #lineupCenter #day3{
+                margin: 100% 30% 2% 1.5%;
+            }
+
+
+            .lineupContainer{
+                width: 40%;
+                margin-left:5%;
+                margin-right:5%;
+                float:left;
+                display: block;
+                position:relative;
+            }
+
+            .lineupContainer span{
+                display:block;
+                margin-left:5%;
+                margin-right:5%;
+                margin-bottom:5%;
+                font-size:1.3em;
+                font-weight: bold;
+            }
+
+            .lineupOverlay {
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                height: auto;
+                width: 100%;
+                opacity: 0;
+                transition: .5s ease-in;
+                background-color: #ff9b17;
+                border:1px solid #ff9b17;
+                border-radius: 3px;
+            }
+
+            .lineupContainer:hover .lineupOverlay {
+                opacity: 0.9;
+            }
+
+            .lineupDescription{
+                width:100%;
+                height:auto;
+                top:45%;
+                left:50%;
+                font-size: 90%;
+                display:block;
+                text-align:center;
+                font-weight: bold;
+                background-color: #ff9b17;
+                position: absolute;
+                transform: translate(-50%, -50%);
+                -ms-transform: translate(-50%, -50%);
+            }
+
+        /*CENTER*/
+
+    /*FINE LINE-UP*/
+
+    /*VIAGGI CSS*/
+
+        .paragraph {
+            border-width: 0.5vw;
+        }
+
+        #Prezzi {
+            width: 90%;
+            margin-left: 5%;
+            margin-right: 5%;
+            margin-bottom: 3em;
+            padding: 0;
+            text-align: center;
+        }
+
+        #Prezzi h2 {
+
+        }
+
+        .purTicket {
+            text-align: center;
+            padding-bottom: 1em;
+        }
+
+        .purTicket input {
+            position:center;
+            width: 28%;
+
+            margin-left: 36%;
+            margin-right: 36%;
+        }
+
+        .ticketDay {
+            width: 100%;
+            margin-bottom: 1em;
+        }
+
+        .ticketPrice {
+            width: 100%;
+            margin-bottom: 0.5em;
+        }
+
+    /*FINE VIAGGI CSS*/
+
+    /*REGISTRAZIONE CSS*/
+
+        #Pregistrazione input[type=submit] {
+            width: 75%;
+            background-color: #ffaa2d;
+            font-size: 1.5em;
+            color: black;
+            padding: 12px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+    /*FINE REGISTRAZIONE CSS*/
+
+    /*LOGIN CSS*/
+        #Plogin input[type=submit] {
+            width: 75%;
+            background-color: #ffaa2d;
+            font-size: 1.5em;
+            color: black;
+            padding: 12px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    /*FINE LOGIN CSS*/
+
+    /*ORDINE CSS*/
+
+    .orderError {
+        margin-bottom:5%;
+        text-align: center;
+        width: 100%;
+    }
+
+    .orderError p{
+        text-align: center;
+    }
+
+    /*ORDINE CSS*/
+
+
+
+}
+
+/*FINE TABLET CSS PER TUTTE LE PAGINE*/

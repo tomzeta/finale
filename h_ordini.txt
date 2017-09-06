@@ -1,0 +1,38 @@
+<div id="OrdineTopcenter">
+    <div id="topTitle"><h1>La tua pagina: [NOMEUTENTE] </h1></div>
+    <h2><span id="carrello">Il tuo carrello</span></h2>
+    [ORDINI]
+</div>
+
+
+<div id="OrdineMidcenter">
+    <h2>Ordina il tuo biglietto</h2>
+    <form action="ordine_send.php" name="costo_biglietti" method="post">
+        <h2>Tipologia biglietto: </h2>
+        <div class="choice">
+            <input type="radio" name="ticket_type" value="Giorno 1 - 30 Settembre"/> Giorno 1 - 30 Settembre<br>
+            <input type="radio" name="ticket_type" value="Giorno 2 - 1 Ottobre"/> Giorno 2 - 1 Ottobre<br>
+            <input type="radio" name="ticket_type" value="Giorno 3 - 2 Ottobre"/> Giorno 3 - 2 Ottobre<br>
+            <input type="radio" name="ticket_type" value="Abbonamento 3 giorni"/> Abbonamento 3 giorni<br>
+        </div>
+        <h2>Numero biglietti: </h2>
+        <div class="choice">
+            <input type="radio" name="num_tickets" value="1"/>  1<br>
+            <input type="radio" name="num_tickets" value="2"/>  2<br>
+            <input type="radio" name="num_tickets" value="3"/>  3<br>
+            <input type="radio" name="num_tickets" value="4"/>  4<br>
+        </div>
+
+
+                [ERROREORDINE]
+
+        <script src="calcola_prezzo.js" type="text/javascript"></script>
+            <div id="result"></div>
+        <div class="OrdineWrap">
+            <input type="submit" id="OrderButton" name="addcart" value="Aggiungi al carrello">
+        </div>
+
+    </form>
+</div>
+
+<a id="logout" href="logout.php">Logout</a>

@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it" lang="it" >
+    <head>
+        <title id="title">ASAP-FESTIVAL</title>
+        <meta name="title" content="As Soon As Possible-Festival" />
+        <meta name="description" content="Sito festival musicale" />
+        <meta name="keywords" content="asap, festival, biglietti, lineup, info"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <meta http-equiv="Content-Script-Type" content="text/javascript"/>
+        <link rel="stylesheet" type="text/css" href="css/style-m.css" media="screen"/>
+        <link rel="stylesheet" type="text/css" href="css/style-d.css" media="screen"/>
+        <link rel="stylesheet" type="text/css" href="css/style-s.css" media="print" />
+        <link rel="shortcut icon" href="images/asapdef.png"/>
+    </head>
+    
+    <body>
+
+        <!--HEADER-->
+            <script src="menu_button.js" type="text/javascript"></script>
+
+            <div id="header">
+                    <img src="images/asapdef.png" id="logo" alt="ASAP festival logo"/>
+                    <div class="click">
+                        <div class="button" id="menubutton" onclick="showmenu()">
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                        </div>
+                        <div id="click-content">
+                            <ul>
+                                <li><a href="p_home.php">HOMEPAGE</a></li>
+                                <li><a href="p_line-up.php">LINE-UP</a></li>
+                                <li><a href="p_tickets.php">TICKETS</a></li>
+                                <li><a href="p_news.php">NEWS</a></li>
+                                <li><a href="p_viaggi.php">TRIP</a></li>
+                                <li><a href="p_info.php">INFO</a></li>
+                                <li><a href="p_login.php">MyPage</a></li>
+                            </ul>
+                        </div>
+                    </div>
+            </div>
+
+            <div id="breadcrumb">
+                <p>Ti trovi in: <span xml:lang="eng">[HOMEPAGE]</span></p>
+            </div>
+
+

@@ -1,0 +1,24 @@
+<div id="Pregistrazione">
+    <div class="mainBody">
+        <div id="topTitle">
+            <h1>Registrati</h1>
+			<h2>Crea un account per poter accedere a tutti i servizi e rimanere in contatto con noi! </h2>
+        </div>
+        <div class="paragraph">
+			<form name="form_registrazione" method="post" action="registration_effettua.php">
+			<p>Nome: <input type="text" name="nome_reg"></p> [nomeError]
+			<br/>
+			<p>Cognome: <input type="text" name="cognome_reg"></p> [cognomeError]
+			<br/>
+			<p>E-mail: <input type="text" name="email_reg"></p> [emailError]
+			<br/>
+			<p>Username: <input type="text" name="username_reg"></p> [usernameError]
+			<br/>
+			<p>Password: <input type="password" name="password_reg"></p> [passwordError]
+			<br/>
+			<input type="submit" value="Registrati">
+			</form>
+        </div>
+
+    </div>
+</div>

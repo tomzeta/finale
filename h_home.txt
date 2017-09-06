@@ -1,0 +1,137 @@
+<div id="topTitle">
+    <h1>homepage</h1>
+</div>
+<div id="homeTopcenter">
+
+    <div id="homeTitleBox">
+        <h2>ARTISTI</h2>
+    </div>
+
+
+    <div class="homeContainer" id="zero">
+        <img src="images/collage.jpg" alt="Collage artisti"/>
+        <div class="homeOverlay">
+            <span class="homeCaption">LINE-UP</span>
+        </div>
+    </div>
+
+    <div class="slideshow" id="immagini">
+
+        <div class="homeContainer">
+            <img class="lineupimg" id="first" src="images/liam.png" alt="Foto di Liam gallagher"/>
+            <div class="homeOverlay">
+                <span class="homeCaption">LIAM GALLAGHER</span>
+            </div>
+        </div>
+        <div class="homeContainer">
+            <img class="lineupimg" src="images/jovanotti.png" alt="Foto di Jovanotti"/>
+            <div class="homeOverlay">
+                <span class="homeCaption">JOVANOTTI</span>
+            </div>
+        </div>
+        <div class="homeContainer">
+            <img class="lineupimg" src="images/adele.png" alt="Foto di Adele"/>
+            <div class="homeOverlay">
+                <span class="homeCaption">ADELE</span>
+            </div>
+        </div>
+        <div class="homeContainer">
+            <img class="lineupimg" src="images/tyler.png" alt="Foto di Tyler The Creator"/>
+            <div class="homeOverlay">
+                <span class="homeCaption">TYLER THE CREATOR</span>
+            </div>
+        </div>
+        <div class="homeContainer">
+            <img class="lineupimg" src="images/boniver.png" alt="Foto di Bon Iver"/>
+            <div class="homeOverlay">
+                <span class="homeCaption">BON IVER</span>
+            </div>
+        </div>
+        <div class="homeContainer">
+            <img class="lineupimg" src="images/steveaoki.png" alt="Foto di Steve Aoki"/>
+            <div class="homeOverlay">
+                <span class="homeCaption">STEVE AOKI</span>
+            </div>
+        </div>
+        <div class="homeContainer">
+            <img class="lineupimg" src="images/marrague.png" alt="Foto di Marracash e Gue Pequeno"/>
+            <div class="homeOverlay">
+                <span class="homeCaption">MARRACASH E GU&#201; PEQUENO</span>
+            </div>
+        </div>
+        <div class="homeContainer">
+            <img class="lineupimg" src="images/demarco.png" alt="Foto di Mac deMarco"/>
+            <div class="homeOverlay">
+                <span class="homeCaption">MAC DEMARCO</span>
+            </div>
+        </div>
+        <div class="homeContainer">
+            <img class="lineupimg" src="images/lamar.png" alt="Foto di Kendrick Lamar"/>
+            <div class="homeOverlay">
+                <span class="homeCaption">KENDRICK LAMAR</span>
+            </div>
+        </div>
+        <div class="homeContainer">
+            <img class="lineupimg" src="images/elio.png" alt="Foto di Elio e le Storie Tese"/>
+            <div class="homeOverlay">
+                <span class="homeCaption">ELIO E LE STORIE TESE</span>
+            </div>
+        </div>
+        <div class="homeContainer">
+            <img class="lineupimg" src="images/rihanna.png" alt="Foto di Rihanna"/>
+            <div class="homeOverlay">
+                <span class="homeCaption">RIHANNA</span>
+            </div>
+        </div>
+        <div class="homeContainer">
+            <img class="lineupimg" src="images/redhot.png" alt="Foto di Red Hot Chili Peppers"/>
+            <div class="homeOverlay">
+                <span class="homeCaption">RED HOT CHILI PEPPERS</span>
+            </div>
+        </div>
+        <div class="homeContainer">
+            <img class="lineupimg" src="images/battiato.png" alt="Foto di Franco Battiato"/>
+            <div class="homeOverlay">
+                <span class="homeCaption">FRANCO BATTIATO</span>
+            </div>
+        </div>
+        <div class="homeContainer">
+            <img class="lineupimg" src="images/legend.png" alt="Foto di John Legend"/>
+            <div class="homeOverlay">
+                <span class="homeCaption">JOHN LEGEND</span>
+            </div>
+        </div>
+        <div class="homeContainer">
+            <img class="lineupimg" src="images/budspencer.png" alt="Foto di Bud Spencer Blues Explosion"/>
+            <div class="homeOverlay">
+                <span class="homeCaption">BUD SPENCER BLUES EXPLOSION</span>
+            </div>
+        </div>
+        <div class="homeContainer">
+            <img class="lineupimg" src="images/garrix.png" alt="Foto di Martin Garrix"/>
+            <div class="homeOverlay">
+                <span class="homeCaption">MARTIN GARRIX</span>
+            </div>
+        </div>
+        <div class="homeContainer">
+            <img class="lineupimg" src="images/stones.png" alt="Foto di Rolling Stones"/>
+            <div class="homeOverlay">
+                <span class="homeCaption">ROLLING STONES</span>
+            </div>
+        </div>
+        <div class="homeContainer">
+            <img class="lineupimg" src="images/stromae.png" alt="Foto di Stromae"/>
+            <div class="homeOverlay">
+                <span class="homeCaption">STROMAE</span>
+            </div>
+        </div>
+    </div>
+
+    <div id="homeButtonContainer">
+        <input type="button" id="prev" onclick="plusDivs(-1)" value="previous"/>
+        <input type="button" id="next" onclick="plusDivs(+1)" value="next"/>
+    </div>
+
+</div>
+<script src="control.js" type="text/javascript"></script>
+<script src="slider.js" type="text/javascript"></script>

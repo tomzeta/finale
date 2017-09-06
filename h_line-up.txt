@@ -1,0 +1,343 @@
+<div id="topTitle">
+    <h1>Lineup del festival</h1>
+</div>
+
+
+<div id="lineupCenter">
+
+    <h2>DAY 1 - 15 LUGLIO 2017</h2>
+
+    <div class="lineupContainer">
+        <div class="lineupWrapper">
+            <img src="images/liam.png" id="img1" alt="Foto di Liam Gallagher"/>
+            <div class="lineupOverlay">
+                <div class="lineupDescription">
+                    William John Paul (Liam) Gallagher,
+                    nasce il 21 settembre 1972 a Manchester e
+                    da 26 anni e' un'icona che incarna
+                    al 101% la figura della Rock and Roll Star.
+                    Diventa popolare in tutto il mondo grazie agli Oasis,
+                    band fondata all'inizio degli anni Novanta assieme al fratello Noel.
+                    Con (WHAT’S THE STORY) MORNING GLORY? (1995) il gruppo infatti raggiunge la fama mondiale e Liam,
+                    cantante dal temperamento turbolento sia sul palco sia nella vita privata
+                    ,si trasforma in una rockstar.
+                </div>
+            </div>
+        </div>
+        <span class="caption">LIAM GALLAGHER</span>
+
+    </div>
+    <div class="lineupContainer">
+        <div class="lineupWrapper">
+            <img src="images/budspencer.png" id="img2" alt="Foto di Bud Spencer Blues Explosion"/>
+            <div class="lineupOverlay">
+                <div class="lineupDescription">
+                    Il duo romano formato
+                    da Adriano Viterbini (chitarra e voce) e
+                    Cesare Petulicchio (batteria e voce) si e'
+                    imposto velocemente come una delle novita'
+                    piu' elettrizzanti del circuito indipendente
+                    italiano degli anni Zero.
+                    I due hanno consolidato la propria fama grazie a un'intensa attivita' live,
+                    riuscendo ad attualizzare nel nuovo millennio certi suoni seventies rock,
+                    abilmente miscelati con il blues delle radici e un innato gusto melodico
+                </div>
+            </div>
+        </div>
+
+        <span class="caption">BUD SPENCER BLUES EXPLOSIONS</span>
+
+    </div>
+    <div class="lineupContainer">
+        <div class="lineupWrapper">
+            <img src="images/adele.png" id="img3" alt="Foto di Adele"/>
+
+            <div class="lineupOverlay">
+                <div class="lineupDescription">
+                    Adele Laurie Blue Adkins (Londra, 5 maggio 1988)
+                    e' una cantante britannica, di genere soul e jazz.
+                    Nel 2006 Adele si diploma e inizia a
+                    inseguire il suo sogno registrando e mettendo sul
+                    suo MySpace un paio di brani.
+                    Non passa molto tempo prima che qualcuno si accorga del personalissimo
+                    soul della ragazza. Accade cosi che, senza aver pubblicato neanche una canzone,
+                    la popstar in erba viene invitata a tantissimi show televisivi
+                    e in poco tempo guadagna una notorieta' incredibile.
+                </div>
+            </div>
+        </div>
+
+        <span class="caption">ADELE</span>
+
+    </div>
+    <div class="lineupContainer">
+        <div class="lineupWrapper">
+            <img src="images/marrague.png" id="img4" alt="Foto di Marracash e Gue Pequeno"/>
+            <div class="lineupOverlay">
+                <div class="lineupDescription">
+                    Cosimo Fini (in arte Gue' Pequeno) e Fabio Bartolo Rizzo (in arte Marracash)
+                    sono due rapper e produttori discografici ex membri della crew Dogo Gang.
+                    I due storici rappers della scena Milanese hanno pubblicato a giugno 2016
+                    il loro primo disco a 4 mani: 'Santeria' che insieme ai singoli estratti come:
+                    'Nulla Accade', 'Insta Lova', 'Ninja' e 'Scooteroni RMX'
+                    è diventato Disco di Platino in poco tempo.
+                </div>
+            </div>
+        </div>
+
+        <span class="caption">MARRACASH E GUE' PEQUENO</span>
+
+    </div>
+    <div class="lineupContainer">
+        <div class="lineupWrapper">
+            <img src="images/stromae.png" id="img5" alt="Foto di Stromae"/>
+            <div class="lineupOverlay">
+                <div class="lineupDescription">
+                    Paul Van Haver nasce a Bruxelles il 12 marzo 1985.
+                    Di origini ruandesi da parte di padre,
+                    comincia a interessarsi alla musica all'eta' di 12 anni,
+                    imparando a suonare la batteria.
+                    Nel 2000 sceglie lo pseudonimo di Opmaestro per cominciare la sua
+                    carriera nel mondo del rap, per poi cambiare nome in Stromae
+                    (inversione sillabica di "maestro").
+                </div>
+            </div>
+        </div>
+
+        <span class="caption">STROMAE</span>
+
+    </div>
+    <div class="lineupContainer">
+        <div class="lineupWrapper">
+            <img src="images/battiato.png" id="img6" alt="Foto di Franco Battiato"/>
+            <div class="lineupOverlay">
+                <div class="lineupDescription">
+                    Franco Battiato nasce vicino Catania, il 23 marzo 1945.
+                    A Milano arriva nel 1964 per far fortuna con le canzoni.
+                    Dall'esordio sperimentale alle prime incisioni di musica leggera,
+                    dall'elettronica all'avanguardia fino alla musica operistica e sacra,
+                    tutto questo e' riassumibile nella carriera di colui
+                    che e' forse il cantante italiano piu' particolare ed eclettico in assoluto.
+                </div>
+            </div>
+        </div>
+
+        <span class="caption">FRANCO BATTIATO</span>
+
+    </div>
+
+    <h2 id="day2">DAY 2 - 16 LUGLIO 2017</h2>
+
+    <div class="lineupContainer">
+        <div class="lineupWrapper">
+            <img src="images/tyler.png" id="img7" alt="Foto di Tyler The Creator"/>
+            <div class="lineupOverlay">
+                <div class="lineupDescription">
+                    Inizia la sua carriera musicale nel 2009 auto-pubblicando il mixtape
+                    Bastard facendosi subito notare dalle riviste di settore.
+                    Nel 2011, con l'uscita del video di Yonkers,
+                    che ha registrato piu' di 81 milioni di visualizzazioni, pubblica il suo primo album studio Goblin.
+                    Lo stesso anno vince come Best New Artist agli MTV Video Music Awards.
+                    Wolf, il secondo disco del rapper americano esce in aprile 2013, l'album vede, tra le tante,
+                    la collaborazione di artisti del calibro di Pharrell Williams,
+                    Frank Ocean e e Mike G.
+                </div>
+            </div>
+        </div>
+
+        <span class="caption">TYLER THE CREATOR</span>
+
+    </div>
+    <div class="lineupContainer">
+        <div class="lineupWrapper">
+            <img src="images/legend.png" id="img8" alt="Foto di John Legend"/>
+            <div class="lineupOverlay">
+                <div class="lineupDescription">
+                    John Stephens (nome reale di Jonh Legend) nasce a Springfield nel dicembre del 1978.
+                    Nipote di un pastore protestante, passa molto tempo cantando e suonando in chiesa.
+                    A 16 anni si trasferisce a Philadelphia per studiare al College, dove incomincia a farsi notare per le sue capacita' musicali.
+                    Dopo aver terminato il college, inizia ad esibirsi a New York dove ottiene grandi consensi.
+                    E' pero' l'incontro con Kanye West che permette a John di incominciare una seria carriera musicale.
+                    West infatti collabora per il brano "The college dropout", che vende ben due milioni di copie.
+                </div>
+            </div>
+        </div>
+
+        <span class="caption">JOHN LEGEND</span>
+
+    </div>
+    <div class="lineupContainer">
+        <div class="lineupWrapper">
+            <img src="images/rihanna.png" id="img9" alt="Foto di Rihanna"/>
+            <div class="lineupOverlay">
+                <div class="lineupDescription">
+                    Ha debuttato nel 2005 con l'album Music of the Sun seguito l'anno successivo da A Girl Like Me.
+                    Nel 2007 ha consolidato la sua fama grazie all'album Good Girl Gone Bad, e i relativi singoli,
+                    tra cui Umbrella, una tra le sue canzoni piu' note.
+                    Dal suo esordio fino ad oggi, Rihanna ha venduto 20 milioni di album e 60 milioni di singoli.
+                    Fin dagli esordi e' legata all'etichetta discografica Def Jam.
+                </div>
+            </div>
+        </div>
+
+        <span class="caption">RIHANNA</span>
+
+    </div>
+    <div class="lineupContainer">
+        <div class="lineupWrapper">
+            <img src="images/boniver.png" id="img10" alt="Foto di Bon Iver"/>
+            <div class="lineupOverlay">
+                <div class="lineupDescription">
+                    Bon Iver e' il nome d'arte di Justin Vernon, cantautore americano diventato un nome "di culto" tra il 2007 e il 2008.
+                    Dopo alcune esperienze musicali in una band, Vernon incide il suo primo disco nel 2007,
+                    ritirandosi in una casa di caccia in Wisconsin a smaltire alcune esperienze negative (la fine di una relazione, una malattia).
+                    A giugno arriva BON IVER, BON IVER, seconda prova sulla lunga distanza di Vernon,
+                    che si allontana dal folk acustico per sperimentare nuovi arrangiamenti piu' complessi.
+                </div>
+            </div>
+        </div>
+
+        <span class="caption">BON IVER</span>
+
+    </div>
+    <div class="lineupContainer">
+        <div class="lineupWrapper">
+            <img src="images/steveaoki.png" id="img11" alt="Foto di Steve Aoki"/>
+            <div class="lineupOverlay">
+                <div class="lineupDescription">
+                    Steve Aoki nasce il 30 novembre 1977 a New York.
+                    Dj, fonda la sua etichetta Dim Mak Records e realizza il suo primo Cd nel 2007: PILLOWFACE AND HIS AIRPLANE CHRONICLES,
+                    a cui fanno seguito il remix del singolo "Forever" di Drake e "I'm in the House",
+                    lavoro realizzato assieme a Zuper Blahq.
+                    Nello stesso periodo Aoki interpreta brani di diversi artisti
+                    come Lenny Kravitz e i Killers per beneficienza.
+                    All'inizio del 2012 pubblica il suo primo disco, WONDERLAND, che contiene diversi brani in collaborazione con Tiesto.
+                </div>
+            </div>
+        </div>
+
+        <span class="caption">STEVE AOKI</span>
+
+    </div>
+    <div class="lineupContainer">
+        <div class="lineupWrapper">
+            <img src="images/redhot.png" id="img12" alt="Foto di Red Hot Chili Peppers"/>
+            <div class="lineupOverlay">
+                <div class="lineupDescription">
+                    I Red Hot Chili Peppers  sono un gruppo rock statunitense, formatosi a Los Angeles nel 1983
+                    e composto da Anthony Kiedis (voce), Flea (basso, cori), Josh Klinghoffer (chitarra, cori) e Chad Smith (batteria, percussioni).
+                    Nella loro carriera hanno mescolato con successo vari generi, tra cui soprattutto funk, rap, hard rock, heavy metal, punk rock
+                    e successivamente alternative rock e pop rock, arrivando a forgiare un caratteristico sound che nelle esibizioni dal vivo e' improntato spesso all'improvvisazione.
+                </div>
+            </div>
+        </div>
+
+        <span class="caption">RED HOT CHILI PEPPERS</span>
+
+    </div>
+
+    <h2 id="day3">DAY 3 - 17 LUGLIO 2017</h2>
+
+    <div class="lineupContainer">
+        <div class="lineupWrapper">
+            <img src="images/elio.png" id="img13" alt="Foto di Elio e Le Storie Tese"/>
+            <div class="lineupOverlay">
+                <div class="lineupDescription">
+                    Gli Elio e le Storie Tese sono un gruppo musicale italiano di Milano,
+                    fondato da Stefano Belisari (in arte Elio) nel 1980.
+                    Apprezzati e conosciuti particolarmente da un pubblico giovanile,
+                    nel 1996 divennero famosi a livello nazionale per la loro prima partecipazione al Festival di Sanremo,
+                    classificandosi secondi col brano "La terra dei cachi" e vincendo il premio della critica "Mia Martini".
+
+                </div>
+            </div>
+        </div>
+
+        <span class="caption">ELIO E LE STORIE TESE</span>
+
+    </div>
+    <div class="lineupContainer">
+        <div class="lineupWrapper">
+            <img src="images/stones.png" id="img14" alt="Foto di Rolling Stones"/>
+            <div class="lineupOverlay">
+                <div class="lineupDescription">
+
+                    I Rolling Stones sono un gruppo musicale britannico,
+                    composto da Mick Jagger (voce, armonica), Keith Richards (chitarre, voce),
+                    Ronnie Wood (chitarre, cori) e Charlie Watts (batteria, percussioni).
+                    E' una delle band piu' importanti e tra le maggiori espressioni della miscela tra i generi della musica rock e blues,
+                    quel genere musicale che e' l'evoluzione del rock and roll anni cinquanta, da loro rivisitato in chiave piu' dura con ritmi lascivi,
+                    canto aggressivo, continui riferimenti al sesso e, talvolta, alle droghe pesanti.
+                </div>
+            </div>
+        </div>
+
+        <span class="caption">ROLLING STONES</span>
+
+    </div>
+    <div class="lineupContainer">
+        <div class="lineupWrapper">
+            <img src="images/jovanotti.png" id="img15" alt="Foto di Jovanotti"/>
+            <div class="lineupOverlay">
+                <div class="lineupDescription">
+                    Jovanotti, nome d'arte di Lorenzo Costantino Cherubini, e' un cantautore, rapper e disc jockey italiano.
+                    Gli esordi di Jovanotti sono legati ad una sorta di musica dance che mescola i nuovi suoni dell'hip hop d'oltreoceano,
+                    un genere decisamente poco conosciuto nell'Italia degli anni Ottanta. La sua immagine e' scanzonata e fracassona, molto diversa da quella che esibisce oggi.
+                    E che il suo sia un orientamento artistico iper-commerciale lo testimonia il suo mentore e scopritore, quel Claudio Cecchetto titolare di tante altre rivelazioni pop.
+                </div>
+            </div>
+        </div>
+
+        <span class="caption">JOVANOTTI</span>
+
+    </div>
+    <div class="lineupContainer">
+        <div class="lineupWrapper">
+            <img src="images/lamar.png" id="img16" alt="Foto di Kendrick Lamar"/>
+            <div class="lineupOverlay">
+                <div class="lineupDescription">
+                    Kendrick Lamar e' nato a Compton, California da genitori originari di Chicago.
+                    All'eta' di 16 anni, Lamar rilascia il suo primo mixtape "Youngest Head Nigga In Charge" sotto lo pseudonimo di K-Dot.
+                    Il mixtape attira un'attenzione tale da far guadagnare a Lamar un contratto con l'etichetta indipendente di Los Angeles Top Dawg Entertainment.
+                    opo alcune collaborazioni decide di abbandonare lo pseudonimo scelto in precedenza e adottare il suo vero nome con il quale rilascia un EP nel 2009 "The Kendrick Lamar EP".
+
+                </div>
+            </div>
+        </div>
+
+        <span class="caption">KENDRICK LAMAR</span>
+
+    </div>
+
+    <div class="lineupContainer">
+        <div class="lineupWrapper">
+            <img src="images/demarco.png" id="img17" alt="Foto di Mac DeMarco"/>
+            <div class="lineupOverlay">
+                <div class="lineupDescription">
+                    Mac DeMarco comincia a farsi conoscere nel 2008 quando, ancora studente, realizza HEAT WAVE, una raccolta di canzoni, sotto il nome di Makeout Videotape.
+                    L'album vende velocemente le 500 copie stampate, nel 2009 si unisce alla band canadese Japandroids e comincia un tour con loro.
+                    Dopo la realizzazione di un Ep, nel 2012 esce il suo primo disco.
+                    A questo punto DeMarco si trasforma in un personaggio cult, per la sua musica, ma anche per l'immagine che da di se'.
+                    Un po' svitato, un po' trasandato e indisciplinato.
+                </div>
+            </div>
+        </div>
+
+        <span class="caption">MAC DEMARCO</span>
+
+    </div>
+    <div class="lineupContainer">
+        <div class="lineupWrapper">
+            <img src="images/garrix.png" id="img18" alt="Foto di Martin Garrix"/>
+            <div class="lineupOverlay">
+                <div class="lineupDescription">
+                    Martin Garrix, nome d'arte di Martijn Garritsen (Amsterdam, 14 maggio 1996),
+                    e' un disc-jockey e produttore discografico olandese, affiliato alla Spinnin' Records.
+                    E' conosciuto maggiormente per il suo singolo Animals, entrato nella Top 10 di piu' di dieci paesi.
+                </div>
+            </div>
+        </div>
+        <span class="caption">MARTIN GARRIX</span>
+    </div>
+
+</div>

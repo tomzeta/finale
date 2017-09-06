@@ -1,0 +1,745 @@
+
+    /*CSS STAMPA*/
+
+    /*PARTE COMUNE A TUTTE LE PAGINE*/
+
+        html, *{
+            padding: 0;
+            margin: 0;
+            font-family: Georgia,serif;
+        }
+
+        title{
+            display: none;
+        }
+
+        a[href]:after{
+            content: "(" attr(href) ")"
+        }
+
+
+    /*FINE PARTE COMUNE A TUTTE LE PAGINE*/
+
+    /*HOMEPAGE*/
+
+        #homeButtonContainer input {
+            display:none;
+        }
+
+        #homeTopcenter h2{
+            margin-top:5%;
+            text-align: center;
+            font-size: 2.2em;
+        }
+
+        .homeCaption{
+            display:none;
+        }
+
+        .homeContainer{
+            width:90%;
+            margin-left:5%;
+        }
+
+        .homeContainer img{
+            width:100%;
+            height:auto;
+            display:block;
+            margin-top:3%;
+            border-radius:10px;
+            border:4px solid black;
+        }
+
+        .homeContent img{
+            width:99%;
+            height:auto;
+            display:block;
+        }
+
+        .homeMore a{
+            margin-left:25%;
+        }
+
+    /*LOWCENTER*/
+
+    .homeNewsContainer{
+        width: 75%;
+        border-style: solid;
+        border-width: 2pt;
+        border-radius: 2pt;
+        margin-left:12%;
+        margin-bottom:10%;
+        padding-bottom:10%;
+
+    }
+
+
+    .homeContent h2{
+        font-size: 3em;
+        font-weight: bold;
+        margin-top:5%;
+        text-align:center;
+
+    }
+
+    .homeContent p{
+        text-align: center;
+        font-size:1.5em;
+        margin: 5% 5%;
+    }
+
+    .homeMore{
+        text-align: center;
+        margin-top:20%;
+        width:80%;
+        background-color: #ffbd0f;
+    }
+
+    .homeMore a{
+        padding: 3% 6% 3% 6%;
+        background-color: #ff9b17;
+        color: #fff;
+        font-weight: bold;
+        text-decoration: none;
+        font-size: 15px;
+        letter-spacing: 2px;
+        border: 3px solid black;
+    }
+
+
+    /*LOWCENTER*/
+
+    /*FINE  DI HOMEPAGE*/
+
+    /*LINE-UP*/
+            .lineupContainer img{
+                width:100%;
+                height:auto;
+                display:block;
+                margin-top:6%;
+                border:1px solid black;
+                border-radius: 3px;
+            }
+
+            .lineupWrapper{
+                position:relative;
+            }
+
+        /*CENTER*/
+
+            #topTitle h1{
+                margin-top:2%;
+                margin-bottom:1%;
+                text-align: center;
+                font-size:2.8em;
+                text-transform: uppercase;
+            }
+
+            #lineupCenter{
+                width:100%;
+                margin-top:3%;
+                margin-bottom:10%;
+            }
+
+            #lineupCenter h2{
+                margin-top:3%;
+                margin-bottom:1%;
+                text-align:center;
+                font-size:2.5em;
+            }
+
+            #lineupCenter #day3{
+                margin: 10% 2% 1.5%;
+            }
+
+            .lineupContainer{
+                width: 60%;
+                margin-left:20%;
+                margin-right:5%;
+                display: block;
+            }
+
+            #img2{
+                page-break-before: always;
+            }
+
+            .lineupDescription{
+                display:none;
+            }
+
+            .lineupContainer span{
+                display:block;
+                margin-top:2%;
+                margin-left:5%;
+                margin-right:5%;
+                margin-bottom:5%;
+                font-size:2em;
+                font-weight: bold;
+            }
+
+        /*CENTER*/
+
+    /*FINE  DI LINE-UP*/
+
+    /*TRIP CSS*/
+
+            .mainBody {
+                margin-top: 0;
+                margin-bottom: 2em;
+                padding: 0;
+                clear: both;
+                display: inline-block;
+                width: auto;
+            }
+
+            #Ptrip .textBlock {
+                display: inline-block;
+                margin-right: auto;
+                margin-left: auto;
+            }
+
+            #Ptrip .paragraph {
+                clear: both;
+                display: inline-block;
+                padding-top: 1em;
+                padding-bottom: 1em;
+                padding-left: 5%;
+                padding-right: 5%;
+                width: 78%;
+                margin-left: 5%;
+                margin-right: 5%;
+                margin-top:18%;
+                text-align: center;
+                border: 2px solid black;
+                border-radius: 4px;
+            }
+
+            #break1{
+                margin-top:65%;
+            }
+
+
+
+            #Ptrip .paragraph h2 {
+                font-size: 2em;
+                margin-bottom: 0.5em;
+                text-transform: uppercase;
+                letter-spacing: 2px;
+                text-align: center;
+            }
+
+            #Ptrip .paragraph h3 {
+                font-size: 1.5em;
+                margin-top: 1.5em;
+                margin-bottom: 1.2em;
+                text-transform: uppercase;
+                letter-spacing: 1px;
+            }
+
+            #Ptrip .paragraph p {
+                font-size: 1.2em;
+                color: black;
+                text-align:center;
+                letter-spacing: 1px;
+            }
+
+            #Ptrip .paragraph a{
+                font-size: 24px;
+                color: black;
+            }
+
+            #Ptrip #helpDesk{
+                font-style: italic;
+            }
+
+            #Ptrip .paragraph h4{
+                font-size: 1.5em;
+                text-transform: uppercase;
+                letter-spacing: 2px;
+                text-align: center;
+                margin-bottom: 2%;
+            }
+
+            #Ptrip .paragraph h5{
+                font-size: 1.2em;
+                text-transform: uppercase;
+                letter-spacing: 2px;
+                text-align: center;
+                margin-top:3%;
+                margin-bottom: 1%;
+            }
+
+            #Ptrip #voyageList li{
+                margin-top:0.3em;
+                margin-left:3%;
+                text-align: left;
+                list-style:square;
+                font-size:1.2em;
+
+            }
+
+            #Ptrip .paragraph img {
+                width:80%;
+                height:auto;
+                max-width: 500px;
+                display: inline-block;
+                border: 2px solid black;
+                border-radius:4px ;
+            }
+
+            #infoBox a{
+                padding: 15px 25px 15px 25px;
+                font-weight: bold;
+                text-decoration: none;
+                font-size: 1.2em;
+                letter-spacing: 2px;
+            }
+
+
+            .mainBody h1 {
+                text-align: center;
+                margin: auto;
+            }
+
+            #Ptrip #fbgroup{
+                height:auto;
+                margin-top:2%;
+                width:5%;
+                min-width:100px;
+                border:none;
+            }
+
+
+    /*FINE DI TRIP CSS*/
+
+    /*TICKETS CSS*/
+
+            #lineUpBody {
+                display: inline-block;
+                width: 100%;
+                margin-bottom: 1em;
+            }
+
+            .lineUpSumUp {
+                text-align: center;
+                width: 100%;
+                margin: auto;
+                padding: 0;
+            }
+            .lineUpSumUp h3 {
+                font-size: 2.2em;
+            }
+
+            .purButton {
+                display:none;
+            }
+
+            .artists{
+                list-style: none;
+                font-weight: bold;
+            }
+
+            .ticketDay {
+                display: inline-block;
+                width: 80%;
+                margin-left: 10%;
+                margin-right: 10%;
+            }
+
+            .ticketPrice {
+                display: inline-block;
+                width:100%;
+            }
+
+            .strongText {
+                font-weight: bold;
+            }
+
+            #Prezzi {
+                text-align: center;
+                margin-left: 0;
+                margin-right: 0;
+                font-size: 1.2em;
+            }
+
+            #Prezzi h2 {
+                margin-bottom: 0.5em;
+            }
+
+            .purTicket input {
+                display:none;
+            }
+
+
+    /*FINE DI TICKETS CSS*/
+
+    /*INFO*/
+
+            #bottone{
+                background-color:#ffec64;
+                border-radius:6px;
+                border:1px solid #ff9900;
+                display:inline-block;
+                cursor:pointer;
+                color:#333333;
+                font-size:100%;
+                font-weight:bold;
+                margin-top:4%;
+                padding:6px 24px;
+            }
+
+            #bottone:hover {
+                background-color: #ff9b17;
+            }
+
+            /*BODY*/
+
+            #border {
+                display: block;
+                width:100%;
+            }
+
+            #Cright h2 {
+                font-size: 2.5em;
+                font-weight: bold;
+                text-align: center;
+                padding-top: 5%;
+                margin-left:3%;
+
+            }
+
+            #content{
+                margin-top:5%;
+                margin-bottom: 5%;
+
+            }
+
+            #content h3 {
+                text-align: center;
+                font-size:1.5em;
+                margin-left: 3%;
+                margin-top: 1%;
+                margin-bottom:1%;
+
+            }
+
+            .article{
+                margin-left:10%;
+                margin-right:10%;
+            }
+
+            .article p {
+                padding:3% 3% 3% 3%;
+                border: 2px solid black;
+                border-radius:3px;
+            }
+
+            #contatti {
+                width:100%;
+                height:auto;
+            }
+
+            #col2{
+                page-break-before: always;
+            }
+
+            #col3{
+                page-break-after: always;
+            }
+
+            #contatti h2 {
+                margin-top: 1em;
+                margin-left:10%;
+                margin-bottom:5%;
+                font-size:1.5em;
+            }
+
+            #contatti .mail{
+                margin-left:10%;
+                padding-right:2%;
+                margin-bottom:4%;
+                font-style:italic;
+            }
+
+            #contatti .tile{
+                text-align:center;
+                margin-left:6%;
+                margin-right:1%;
+                font-weight: bold;
+            }
+
+            #contatti p{
+                margin-left:10%;
+                margin-top:1%;
+                margin-bottom:4%;
+            }
+
+            #contatti .column{
+                padding-right:15%;
+                margin-top:5%;
+                margin-left:12%;
+                margin-right:12%;
+                padding-bottom:5%;
+                margin-bottom:2%;
+                border: 2px solid black;
+                border-radius:3px;
+                width: 60%;
+            }
+
+            #contatti .column h1{
+                margin-top: 5%;
+                margin-left: 10%;
+                margin-bottom: 5%;
+            }
+
+            #contatti .column p{
+                margin-left: 10%;
+            }
+
+            #contatti .tile{
+                margin-left: 10%;
+            }
+
+            /*BODY*/
+
+            /*BORDER*/
+
+            #fill {
+                display:none;
+            }
+
+            /*BORDER*/
+
+    /*FINE DI INFO*/
+
+
+    /*LOGIN*/
+
+
+        #Plogin #topTitle h1 {
+            font-size: 2em;
+            padding: 0;
+            width: 100%;
+            background-color: #ffaa2d;
+            padding-top: .5em;
+            padding-bottom: .5em;
+            margin-bottom: 0.5em;
+            text-align: center;
+            margin-top: 0;
+        }
+
+        #Plogin #topTitle h2 {
+            font-size: 1.5em;
+            padding: 0;
+            text-align: center;
+        }
+
+        #Plogin .paragraph {
+            display:none;
+        }
+
+        .ops {
+            font-size: 1.5em;
+            font-weight: bold;
+            letter-spacing: 2pt;
+            text-transform: uppercase;
+            margin-top:5%;
+            margin-bottom: .3em;
+            text-align: center;
+            display: block;
+        }
+
+    /*FINE LOGIN*/
+
+    /*REGISTRAZIONE*/
+
+    #Pregistrazione .paragraph{
+        display:none;
+    }
+
+    /*FINE REGISTRAZIONE*/
+
+
+    /*ORDINI*/
+
+    #OrdineTopcenter h2 {
+        text-align: center;
+        font-size: 2em;
+        margin-top:5%;
+        margin-bottom:1%;
+    }
+
+    #OrdineTopcenter h3 {
+        font-size: 1.5em;
+        padding-bottom: 1%;
+        text-align: center;
+    }
+
+    #OrdineTopcenter span {
+        color: black;
+        margin-top: 5%;
+        text-align: center;
+    }
+
+    .orderBold{
+        font-weight:bold;
+    }
+
+    .order {
+        margin-left: 2%;
+    }
+
+    .order p {
+        padding-bottom: 1.5%;
+        text-align: center;
+    }
+
+    #OrdineMidcenter h2 {
+        display: none;
+    }
+
+    #OrdineMidcenter p {
+        font-size: 1.5em;
+    }
+
+    #OrdineMidcenter .orderError {
+        margin-top:5%;
+        margin-bottom:5%;
+        text-align:center;
+    }
+
+    .choice{
+        display:none;
+    }
+
+    .insert {
+        font-size: 2em;
+    }
+
+    #OrdineMidcenter .choice{
+        width: 200px;
+        margin: 0 auto;
+    }
+
+    #OrderButton{
+        display:none;
+    }
+
+
+    /*FINE ORDINI*/
+
+
+
+
+    /*HEADER*/
+
+        #header{
+            padding-bottom:1%;
+            margin-bottom: 1%;
+        }
+
+        #header #logo{
+            height:auto;
+            margin-top:5%;
+            margin-left:34%;
+            width:30%;
+        }
+
+        .click {
+                display: none;
+        }
+
+        #breadcrumb{
+                display:none;
+        }
+
+    /*HEADER*/
+
+    /*FOOTER*/
+
+        #footer{
+            margin-top:50%;
+            text-align:center;
+            page-break-inside: avoid;
+            font-size: 1.2em;
+        }
+
+        #Fleft h3{
+            padding-top:5%;
+        }
+        #Fleft ul{
+            margin-top:2%;
+            margin-bottom:1.5em;
+        }
+
+        #Fleft li{
+            margin-top:0.625em;
+            padding-bottom:0.3em;
+            list-style-type: none;
+            font-size: 1.15em;
+        }
+
+        #Fleft a:link{
+            text-decoration:none;
+            color: black;
+        }
+
+        #Fcenter{
+            margin-left:auto;
+            margin-right:auto;
+            width: 12em;
+            height: auto;
+        }
+
+        #Fcenter img{
+            height: auto;
+            width:100%;
+        }
+
+        .FimageContainer{
+            width: auto;
+        }
+
+        #Fcenter h3{
+            font-size:1.3em;
+        }
+
+        .footerContent{
+            margin-top:1%;
+            width:auto;
+        }
+
+        .footerContent p{
+            padding-top:1%;
+            font-size:120%;
+            text-align:center;
+        }
+
+        .footerContent .infoBox{
+            font-weight: bold;
+        }
+
+        #Fright h3{
+            padding-top:2%;
+        }
+
+        #fblogo{
+            display: block;
+            margin: auto;
+            height: 4em;
+            width: 4.5em;
+            padding-top:2%;
+            padding-right:0.5em;
+        }
+
+        #instalogo{
+            display:block;
+            margin:auto;
+            height: 4.3em;
+            width: 4.3em;
+            padding-top:1em;
+            padding-right:0.5em;
+
+        }
+
+    /*FOOTER*/
