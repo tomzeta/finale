@@ -18,12 +18,12 @@ if($res->num_rows > 0) {
     $lista_news = "<p><span lang='eng'>Stay tuned!</span></p>";
 }
 
-$headerpage = file_get_contents('header.txt');
+$headerpage = file_get_contents('template/header.txt');
 echo str_replace('[HOMEPAGE]', 'News', $headerpage);
 
-$paginaRisultati = file_get_contents('h_news.txt');
+$paginaRisultati = file_get_contents('template/h_news.txt');
 
 echo str_replace('[CONTENUTO]', $lista_news, $paginaRisultati);
 
-echo file_get_contents('footer.txt');
+echo file_get_contents('template/footer.txt');
 ?>

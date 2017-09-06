@@ -27,7 +27,7 @@ session_start();
     if(!$success){
         die("Non si possono inserire i dati: ".$conn->error);
     }
-    $res->close();
+
     $conn->close();
     header("Location: p_news.php");
 ?>

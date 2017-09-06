@@ -32,13 +32,13 @@ if(isset($_SESSION['user'])== ""){
         $lista_ordini = "<p class='orderError'>Non è stato effettuato ancora alcun ordine.</p>";
     }
 
-    $headerpage = file_get_contents('header.txt');
+    $headerpage = file_get_contents('template/header.txt');
     echo str_replace('[HOMEPAGE]', 'Pagina Utente', $headerpage);
 
-    $paginaRisultati = file_get_contents('h_ordini.txt');
+    $paginaRisultati = file_get_contents('template/h_ordini.txt');
     $paginaRisultati = str_replace("[NOMEUTENTE]", $utente, $paginaRisultati);
     $paginaRisultati = str_replace("[ORDINI]", $lista_ordini, $paginaRisultati);
     echo str_replace('[ERROREORDINE]', $_SESSION['orderError'], $paginaRisultati);
-    echo file_get_contents('footer.txt');
+    echo file_get_contents('template/footer.txt');
 }
 ?>

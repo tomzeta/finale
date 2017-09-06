@@ -34,16 +34,16 @@ else {
         $lista_news = "<p id='newsError'>Non hai ancora pubblicato alcuna news</p>";
     }
 
-    $headerpage = file_get_contents('header.txt');
+    $headerpage = file_get_contents('template/header.txt');
     echo str_replace('[HOMEPAGE]', 'Pagina di amministrazione', $headerpage);
 
     $messaggioErrore = "<p id='newsError'>" .  $_SESSION['elimina_news_error'] . "</p>";
-    $paginaRisultati = file_get_contents('h_pagina_amministrazione.txt');
+    $paginaRisultati = file_get_contents('template/h_pagina_amministrazione.txt');
     $paginaRisultati = str_replace("[NOMEUTENTE]", $_SESSION['username'], $paginaRisultati);
     $paginaRisultati = str_replace("[News Titles]", $lista_news, $paginaRisultati);
     echo str_replace("[ErroreErase]", $messaggioErrore , $paginaRisultati);
 
-    echo file_get_contents('footer.txt');
+    echo file_get_contents('template/footer.txt');
     $conn->close();
 }
 ?>

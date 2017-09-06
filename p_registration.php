@@ -27,15 +27,15 @@ if(isset($_SESSION['user'])!="" ) {
         header("Location: p_ordini.php");
     }
 } else {
-    $headerpage = file_get_contents('header.txt');
+    $headerpage = file_get_contents('template/header.txt');
     echo str_replace('[HOMEPAGE]', 'Registrazione', $headerpage);
-    $finalpage = file_get_contents('h_registrazione.txt');
+    $finalpage = file_get_contents('template/h_registrazione.txt');
     $finalpage = str_replace('[nomeError]', $_SESSION['nomeErr'], $finalpage);
     $finalpage = str_replace('[cognomeError]', $_SESSION['cognomeErr'], $finalpage);
     $finalpage = str_replace('[emailError]', $_SESSION['emailErr'], $finalpage);
     $finalpage = str_replace('[usernameError]', $_SESSION['usernameErr'], $finalpage);
     echo str_replace('[passwordError]', $_SESSION['passwordErr'], $finalpage);
 
-    echo file_get_contents('footer.txt');
+    echo file_get_contents('template/footer.txt');
 }
 ?>
