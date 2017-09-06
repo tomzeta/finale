@@ -836,7 +836,27 @@
     padding:6px 12px;
 }
 .adminButtonDiv {
-    margin-bottom: 2em;
+    width:80%;
+    margin-left:10%;
+    margin-bottom:10%;
+    text-align: center;
+}
+
+#adminButton{
+    background-color:#ffec64;
+    border-radius:6px;
+    border:1px solid #ff9900;
+    display:inline-block;
+    cursor:pointer;
+    color:#333333;
+    font-size:100%;
+    font-weight:bold;
+    margin-top:2%;
+    padding:6px 12px;
+}
+
+#adminButton:hover {
+    background-color: #ff9b17;
 }
 
 /*END ADMIN*/
