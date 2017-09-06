@@ -667,6 +667,9 @@
     #Plogin input[type=submit]:hover {
         background-color: #ffaa6a;
     }
+    #registrati{
+        text-align: center;
+    }
 /*FINE PARTE COMUNE A TUTTI I BREAKPOINT DI LOGIN*/
 
 
@@ -776,9 +779,16 @@
 }
 #eraseButton{
     margin-left: 10%;
-    margin-top: 1em;
-    padding: 0.5em;
-    font-weight: bold;
+    background-color:#ffec64;
+    border-radius:6px;
+    border:1px solid #ff9900;
+    display:inline-block;
+    cursor:pointer;
+    color:#333333;
+    font-size:100%;
+    font-weight:bold;
+    margin-top:2%;
+    padding:6px 12px;
 }
 #publishedNews {
     margin-bottom: 2em;
@@ -813,13 +823,8 @@
     font-size: 1.3em;
     margin-bottom: 1em;
 }
-#adminButton {
-    margin-left:10%;
-    margin-top: 2em;
-    margin-bottom: 2em;
-    padding: 0.5em;
-    font-weight: bold;
-}
+
+
 #logout{
     background-color:#ffec64;
     border-radius:6px;
@@ -852,6 +857,7 @@
     font-size:100%;
     font-weight:bold;
     margin-top:2%;
+    margin-left: 10%;
     padding:6px 12px;
 }
 
@@ -1548,9 +1554,6 @@
     #newsError{
         width:100%;
         margin-left: 0;
-        text-align: center;
-    }
-    #eraseButton{
         text-align: center;
     }
     /*ADMIN*/

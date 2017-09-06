@@ -106,7 +106,6 @@ if(!$errore){
         unset($username);
         unset($email);
         unset($password);
-        $res->close();
         header("Location: p_login.php");
     }
     else {

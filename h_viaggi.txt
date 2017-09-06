@@ -22,19 +22,17 @@
 
             <p>
                 I viaggi organizzati per l'edizione 2017 di ASAP Music Festival -
-                *cittàdadecidere* sono in vendita! Iscriviti alla nostra Newsletter
-                e seguici su</p> <a hrerf="#fb">Facebook</a>
-            <p>
-                per rimanere aggiornato.
-                Seguici anche su Telegram per aggiornamenti veloci!
-            </p>
+                                            Padova sono in vendita! Iscriviti alla nostra Newsletter
+                                            e seguici su Facebook per rimanere aggiornato.
+                                            Seguici anche su Telegram per aggiornamenti veloci!</p>
+
 
             <h3>VIAGGI ORGANIZZATI IN PULLMAN 2017</h3>
 
             <p>La Dongiovanni Viaggi Sas organizza viaggi per eventi dal 2004.
-                Il viaggio in bus è il modo più comodo, ecologico ed economico per raggiungere ASAP.
-                Tutti i nostri bus sono dotati di area condizionata, e sono accompagnati da un responsabile di viaggio.
-                Sono previste partenze da molte cittá italiane.
+                                           Il viaggio in bus &#232; il modo pi&#249; comodo, ecologico ed economico per raggiungere ASAP.
+                                           Tutti i nostri bus sono dotati di area condizionata, e sono accompagnati da un responsabile di viaggio.
+                                           Sono previste partenze da molte citt&#224; italiane.
             </p>
 
             <h3>Helpdesk viaggi:</h3>
@@ -46,10 +44,10 @@
         <div class="textBlock">
             <h4>viaggiando con noi:</h4>
             <ul id="voyageList">
-                <li>arriverai direttamente sul posto, all'interno di ASAP Festival - *città* </li>
-                <li>potrai portarti una valigia,  più la tenda e più uno zainetto/borsa a mano senza costi ulteriori</li>
-                <li>ti diveterai già durante il viaggio: il festival iniza nel pullman!</li>
-                <li>Attenzione, per l'edizione 2017 il viaggio è programmato per arrivare il giorno prima dell'inizio del festival (accesso 14 luglio) </li>
+                <li>arriverai direttamente sul posto, all'interno di ASAP Festival - Padova </li>
+                                            <li>potrai portarti una valigia,  pi&#249; la tenda e pi&#249; uno zainetto/borsa a mano senza costi ulteriori</li>
+                                            <li>ti diveterai gi&#224; durante il viaggio: il festival iniza nel pullman!</li>
+                                            <li>Attenzione, per l'edizione 2017 il viaggio &#232; programmato per arrivare il giorno prima dell'inizio del festival (accesso 14 luglio) </li>
             </ul>
 
         </div>
@@ -58,17 +56,17 @@
         <div class="textBlock">
             <h4>viaggiando in macchina</h4>
             <p>
-                Padova dista solo 245 km da Milano e 488 km da Roma ed entrambe le città sono collegate a Padova da autostrade.
-                Percorrendo A4 da Milano ed E35 da Roma si raggiunge l'Area del festival, situata presso lo stadio Euganeo, rispettivamente
-                in 3 e 5 ore, toccando nel tragitto molte città secondarie, se hai posti liberi in macchina condividili per un viaggio più ecologico ed economico!
-                Puoi cercare o offrire passaggio sul nostro gruppo Facebook dedicato.
+                Padova dista solo 245 km da Milano e 488 km da Roma ed entrambe le citt&#224; sono collegate a Padova da autostrade.
+                                            Percorrendo A4 da Milano ed E35 da Roma si raggiunge l'area del festival, situata presso lo stadio Euganeo, rispettivamente
+                                            in 3 e 5 ore, toccando nel tragitto molte citt&#224; secondarie, se hai posti liberi in macchina condividili per un viaggio pi&#249; ecologico ed economico!
+                                            Puoi cercare o offrire passaggio sul nostro gruppo Facebook dedicato.
             </p>
 
             <h5>consulta il gruppo!</h5>
 
         </div>
 
-        <a href="#facebook">
+        <a href="https://www.facebook.com/asapfestival/">
             <img id="fbgroup" src="images/fblogo.png" alt="Facebook logo"/>
         </a>
 
@@ -76,8 +74,11 @@
     <div class="paragraph">
         <div class="textBlock">
             <h2>Dove Alloggiare</h2>
-            <p>Siamo in convenzione con B&amp;Ba "Da Bruno" per il nostro festival. 35€ a persona a notte per un buco. Via dei Muli 35, Napoli IT.</p>
-            <p>Per ulteriori informazioni chiama il +39 046 754 333. Oppure scrivi a contatti@bnbbruno.it</p>
+            <p>Siamo in convenzione con B&amp;B  "Da Bruno" per il nostro festival.
+                                           Un ottimo pernottamento situato in pieno
+                                           centro a Padova per godersi al massimo anche ci&#242; che la citt&#224; ha da offrire!</p>
+            <p>Per ulteriori informazioni chiama il +39 046 754 333. Oppure scrivi a </p>
+            <p id="styleIt">contatti@bnbbruno.it</p>
         </div>
         <div class="imageWrapper">
             <div class="overlay">
@@ -90,7 +91,7 @@
             <h2>Qualche dubbio?</h2>
             <h3>contattaci!</h3>
             <div id="infoBox">
-                <a href="info.html">INFO</a>
+                <a href="p_info.php">INFO</a>
             </div>
         </div>
     </div>

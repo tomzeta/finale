@@ -33,10 +33,10 @@
                 </div>
                 <div id="Fright">
                     <h3>SOCIAL</h3>
-                    <a href="#facebook">
+                    <a href="https://www.facebook.com/asapfestival/">
                         <img id="fblogo" src="images/fblogo.png" alt="Facebook logo"/>
                     </a>
-                    <a href="#instagram">
+                    <a href="https://www.instagram.com/asapfestival/?hl=it">
                         <img id="instalogo" src="images/instalogo.png" alt="Instagram logo"/>
                     </a>
 

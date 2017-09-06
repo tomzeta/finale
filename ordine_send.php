@@ -11,14 +11,14 @@ if (isset($_POST['addcart'])) {
         $tipologia_biglietti = $_POST['ticket_type'];
     } else {
         $error = true;
-        $_SESSION['orderError'] = "Non è stata selezionata una tipologia di biglietti. ";
+        $ticket_type_err = "Non è stata selezionata una tipologia di biglietti. ";
     }
 
     if (isset($_POST['num_tickets'])) {
         $num_biglietti = $_POST['num_tickets'];
     } else {
         $error = true;
-        $_SESSION['orderError'] =  $_SESSION['orderError'] . "Non è stato selezionato il numero di biglietti";
+        $num_tickets_error = "Non è stato selezionato il numero di biglietti. ";
     }
 
     if(!$error) {
@@ -38,6 +38,7 @@ if (isset($_POST['addcart'])) {
             $_SESSION['orderError'] = "C'è stato un errore nel contattare il server";
         }
     }
+    $_SESSION['orderError'] ="<div class='orderError'><p>" . $ticket_type_err . $num_tickets_error . "</p></div>";
     header("Location: p_ordini.php");
 }
 ?>

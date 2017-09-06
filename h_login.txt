@@ -1,8 +1,8 @@
 <div id="Plogin">
 <div class="mainBody">
         <div id="topTitle">
-            <h1>Accedi al tuo profilo</h2>
-			<p>Non sei ancora un utente? <a href="p_registration.php">Registrati</a> subito!</p>
+            <h1>Accedi al tuo profilo</h1>
+			<p id="registrati">Non sei ancora un utente? <a href="p_registration.php">Registrati</a> subito!</p>
         </div>
         <div class="paragraph">
 			<form name="form_login" method="post" action="login_effettua.php">

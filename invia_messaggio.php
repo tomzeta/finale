@@ -54,7 +54,6 @@ if(!$errore) {
     } else {
         die("Non si possono inserire i dati: " . $conn->error);
     }
-    $res->close();
 }
 $conn->close();
 header("Location: p_info.php");

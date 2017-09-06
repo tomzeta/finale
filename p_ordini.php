@@ -6,6 +6,11 @@ $conn = Connect();
 if(!isset($_SESSION['[orderError]'])){
     $_SESSION['[orderError]'] = "";
 }
+if(isset($_SESSION['user'])!="" ) {
+    if ($_SESSION['user_type'] == "admin") {
+        header("Location: p_admin.php");
+    }
+}
 if(isset($_SESSION['user'])== ""){
     header("Location: p_login.php");
 } else {
@@ -24,7 +29,7 @@ if(isset($_SESSION['user'])== ""){
         $lista_ordini .= "<p class='orderError'>Verrai contattato a breve per definire i dettagli dell'acquisto.</p>";
         $res->close();
     } else {
-        $lista_ordini = "<p>Non è stato effettuato ancora alcun ordine.</p>";
+        $lista_ordini = "<p class='orderError'>Non è stato effettuato ancora alcun ordine.</p>";
     }
 
     $headerpage = file_get_contents('header.txt');
